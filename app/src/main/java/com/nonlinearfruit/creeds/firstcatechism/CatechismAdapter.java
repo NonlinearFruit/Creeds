@@ -96,7 +96,7 @@ public class CatechismAdapter extends ArrayAdapter<CatechismQnA> implements Filt
         }
 
         private boolean isMatch(String query, CatechismQnA qna) {
-            return qna.Number.toString() == query ||
+            return qna.Number.toString().equals(query) ||
                     qna.Question.contains(query) ||
                     qna.Answer.contains(query);
         }

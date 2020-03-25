@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_creed_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:lineSpacingExtra="-5sp"
+        android:text="Creed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/item_creed_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year AD"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+</LinearLayout>
