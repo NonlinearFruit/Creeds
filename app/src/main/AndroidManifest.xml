@@ -26,6 +26,10 @@
             android:label="Athanasian Creed"></activity>
         <activity android:name=".chalcedoniancreed.ChalcedonianCreedActivity"
             android:label="Chalcedonian Creed"></activity>
+        <activity android:name=".shemayisrael.ShemaYisraelActivity"
+            android:label="Shema Yisrael"></activity>
+        <activity android:name=".confessionofpeter.ConfessionOfPeterActivity"
+            android:label="Confession of Peter"></activity>
     </application>
 
 </manifest>

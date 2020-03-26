@@ -3,9 +3,11 @@ package com.nonlinearfruit.creeds.main;
 import com.nonlinearfruit.creeds.apostlescreed.ApostlesCreedActivity;
 import com.nonlinearfruit.creeds.athanasiancreed.AthanasianCreedActivity;
 import com.nonlinearfruit.creeds.chalcedoniancreed.ChalcedonianCreedActivity;
+import com.nonlinearfruit.creeds.confessionofpeter.ConfessionOfPeterActivity;
 import com.nonlinearfruit.creeds.firstcatechism.FirstCatechismActivity;
 import com.nonlinearfruit.creeds.main.models.MainMenuItem;
 import com.nonlinearfruit.creeds.nicenecreed.NiceneCreedActivity;
+import com.nonlinearfruit.creeds.shemayisrael.ShemaYisraelActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,6 +44,18 @@ public class MainDatabase {
             CreedYear = 381;
             CreedOrigin = "Adopted at the Second Ecumenical Council held in Constantinople in 381 as a modification of the original Nicene Creed of 325";
             IntentClass = NiceneCreedActivity.class;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Confession of Peter";
+            CreedYear = 30;
+            CreedOrigin = "Matthew 16:16";
+            IntentClass = ConfessionOfPeterActivity.class;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Shema Yisrael";
+            CreedYear = -1500;
+            CreedOrigin = "Deuteronomy 6:4";
+            IntentClass = ShemaYisraelActivity.class;
         }});
     }};
 
