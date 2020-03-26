@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/item_creed_title"
+        android:id="@+id/item_mainmenu_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -14,7 +14,7 @@
         android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/item_creed_year"
+        android:id="@+id/item_mainmenu_year"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Year AD"
