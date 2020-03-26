@@ -30,6 +30,8 @@
             android:label="Shema Yisrael"></activity>
         <activity android:name=".confessionofpeter.ConfessionOfPeterActivity"
             android:label="Confession of Peter"></activity>
+        <activity android:name=".westminsterlargercatechism.WestminsterLargerCatechismActivity"
+            android:label="Westminster Larger Catechism"></activity>
     </application>
 
 </manifest>

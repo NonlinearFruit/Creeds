@@ -8,6 +8,7 @@ import com.nonlinearfruit.creeds.firstcatechism.FirstCatechismActivity;
 import com.nonlinearfruit.creeds.main.models.MainMenuItem;
 import com.nonlinearfruit.creeds.nicenecreed.NiceneCreedActivity;
 import com.nonlinearfruit.creeds.shemayisrael.ShemaYisraelActivity;
+import com.nonlinearfruit.creeds.westminsterlargercatechism.WestminsterLargerCatechismActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +21,12 @@ public class MainDatabase {
             CreedYear = 1996;
             CreedOrigin = "Copyright 2003 - Great Commission Publications, Inc";
             IntentClass = FirstCatechismActivity.class;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Westminster Larger Catechism";
+            CreedYear = 1648;
+            CreedOrigin = "";
+            IntentClass = WestminsterLargerCatechismActivity.class;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "Athanasian Creed";
