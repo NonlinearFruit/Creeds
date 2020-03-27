@@ -1,10 +1,12 @@
-package com.nonlinearfruit.creeds.westminsterlargercatechism;
+package com.nonlinearfruit.creeds.catechism;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -14,39 +16,39 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.nonlinearfruit.creeds.R;
-import com.nonlinearfruit.creeds.firstcatechism.CatechismAdapter;
-import com.nonlinearfruit.creeds.firstcatechism.FirstCatechismDatabase;
-import com.nonlinearfruit.creeds.firstcatechism.models.CatechismQnA;
-import com.nonlinearfruit.creeds.westminsterlargercatechism.models.CatechismQuestion;
+import com.nonlinearfruit.creeds.catechism.models.CatechismQuestion;
 
 import java.util.List;
 
+public class CatechismActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
-// http://www.java2s.com/Code/Android/2D-Graphics/ShowsalistthatcanbefilteredinplacewithaSearchViewinnoniconifiedmode.htm
-public class WestminsterLargerCatechismActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
-
-    private static final String TAG = "SearchViewFilterMode";
-
+    private CatechismDatabase db;
     private SearchView searchView;
     private ListView listView;
-    private WestminsterLargerCatechismAdapter adapter;
+    private CatechismAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        Intent intent = getIntent();
+        String title = intent.getStringExtra("Title");
+        int jsonFile = intent.getIntExtra("JsonFileId",1); // TODO: Defaulting to 1 could be _bad_
+
+        setTitle(title);
         setContentView(R.layout.activity_list);
 
-        WestminsterLargerCatechismDatabase db = new WestminsterLargerCatechismDatabase();
+        db = new CatechismDatabase(jsonFile);
         List<CatechismQuestion> data;
         try{
             data = db.getCatechism(this);
         } catch (Exception exception) {
+            Log.e("CREEDS", "Loading json failed for "+title, exception);
             data = db.getDefaultCatechism();
         }
-        searchView = (SearchView) findViewById(R.id.search_view);
-        listView = (ListView) findViewById(R.id.list_view);
-        adapter = new WestminsterLargerCatechismAdapter(data,this);
+        searchView = findViewById(R.id.search_view);
+        listView = findViewById(R.id.list_view);
+        adapter = new CatechismAdapter(data,this);
 
         setupListView();
         setupSearchView();
@@ -77,7 +79,7 @@ public class WestminsterLargerCatechismActivity extends AppCompatActivity implem
         if (TextUtils.isEmpty(newText)) {
             adapter.getFilter().filter("");
         } else {
-            adapter.getFilter().filter(newText.toString());
+            adapter.getFilter().filter(newText);
         }
         return true;
     }

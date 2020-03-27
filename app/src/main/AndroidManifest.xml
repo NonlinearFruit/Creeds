@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".firstcatechism.FirstCatechismActivity"
+        <activity android:name=".catechism.CatechismActivity"
             android:label="First Catechism"></activity>
         <activity android:name=".apostlescreed.ApostlesCreedActivity"
             android:label="Apostles' Creed"></activity>
@@ -30,8 +30,8 @@
             android:label="Shema Yisrael"></activity>
         <activity android:name=".confessionofpeter.ConfessionOfPeterActivity"
             android:label="Confession of Peter"></activity>
-        <activity android:name=".westminsterlargercatechism.WestminsterLargerCatechismActivity"
-            android:label="Westminster Larger Catechism"></activity>
+        <activity android:name=".westminsterconfessionoffaith.WcfActivity"
+            android:label="Westminster Confession of Faith"></activity>
     </application>
 
 </manifest>

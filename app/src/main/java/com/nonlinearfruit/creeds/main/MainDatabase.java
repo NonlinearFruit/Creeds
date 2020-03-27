@@ -1,14 +1,15 @@
 package com.nonlinearfruit.creeds.main;
 
+import com.nonlinearfruit.creeds.R;
 import com.nonlinearfruit.creeds.apostlescreed.ApostlesCreedActivity;
 import com.nonlinearfruit.creeds.athanasiancreed.AthanasianCreedActivity;
 import com.nonlinearfruit.creeds.chalcedoniancreed.ChalcedonianCreedActivity;
 import com.nonlinearfruit.creeds.confessionofpeter.ConfessionOfPeterActivity;
-import com.nonlinearfruit.creeds.firstcatechism.FirstCatechismActivity;
+import com.nonlinearfruit.creeds.catechism.CatechismActivity;
 import com.nonlinearfruit.creeds.main.models.MainMenuItem;
 import com.nonlinearfruit.creeds.nicenecreed.NiceneCreedActivity;
 import com.nonlinearfruit.creeds.shemayisrael.ShemaYisraelActivity;
-import com.nonlinearfruit.creeds.westminsterlargercatechism.WestminsterLargerCatechismActivity;
+import com.nonlinearfruit.creeds.westminsterconfessionoffaith.WcfActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,13 +21,29 @@ public class MainDatabase {
             CreedTitle = "First Catechism";
             CreedYear = 1996;
             CreedOrigin = "Copyright 2003 - Great Commission Publications, Inc";
-            IntentClass = FirstCatechismActivity.class;
+            IntentClass = CatechismActivity.class;
+            JsonFileId = R.raw.first_catechism;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "Westminster Larger Catechism";
             CreedYear = 1648;
             CreedOrigin = "";
-            IntentClass = WestminsterLargerCatechismActivity.class;
+            IntentClass = CatechismActivity.class;
+            JsonFileId = R.raw.wlc;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Westminster Confession of Faith";
+            CreedYear = 1647;
+            CreedOrigin = "";
+            IntentClass = WcfActivity.class;
+            JsonFileId = R.raw.westminster_confession_of_faith;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Heidelberg Catechism";
+            CreedYear = 1563;
+            CreedOrigin = "";
+            IntentClass = CatechismActivity.class;
+            JsonFileId = R.raw.heidelberg_catechism;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "Athanasian Creed";

@@ -1,4 +1,4 @@
-package com.nonlinearfruit.creeds.westminsterlargercatechism.models;
+package com.nonlinearfruit.creeds.catechism.models;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.nonlinearfruit.creeds.westminsterlargercatechism.models;
+package com.nonlinearfruit.creeds.catechism.models;
 
 public class ProofText {
     public String Id;

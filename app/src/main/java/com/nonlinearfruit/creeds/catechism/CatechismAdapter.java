@@ -1,4 +1,4 @@
-package com.nonlinearfruit.creeds.westminsterlargercatechism;
+package com.nonlinearfruit.creeds.catechism;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,25 +11,19 @@ import android.widget.Filterable;
 import android.widget.TextView;
 
 import com.nonlinearfruit.creeds.R;
-import com.nonlinearfruit.creeds.firstcatechism.models.CatechismQnA;
-import com.nonlinearfruit.creeds.westminsterlargercatechism.models.CatechismQuestion;
+import com.nonlinearfruit.creeds.catechism.models.CatechismQuestion;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by nonfrt on 9/30/17.
- * https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView
- * https://github.com/survivingwithandroid/Surviving-with-android/blob/master/ListView_Filter_Tutorial/src/com/survivingwithandroid/listview/SimpleList/PlanetAdapter.java
- */
-public class WestminsterLargerCatechismAdapter extends ArrayAdapter<CatechismQuestion> implements Filterable{
+public class CatechismAdapter extends ArrayAdapter<CatechismQuestion> implements Filterable{
 
     private List<CatechismQuestion> catechismQnAs;
     private Context context;
     private Filter filter;
     private List<CatechismQuestion> originalQnAs;
 
-    public WestminsterLargerCatechismAdapter(List<CatechismQuestion> catechismQnAs, Context ctx) {
+    public CatechismAdapter(List<CatechismQuestion> catechismQnAs, Context ctx) {
         super(ctx, 0, catechismQnAs);
         this.catechismQnAs = catechismQnAs;
         this.context = ctx;

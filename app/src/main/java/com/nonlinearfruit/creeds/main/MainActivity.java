@@ -40,8 +40,10 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 MainMenuItem creed = (MainMenuItem) parent.getAdapter().getItem(position);
-                Intent toMediaWeGo = new Intent(MainActivity.this, creed.IntentClass);
-                view.getContext().startActivity(toMediaWeGo);
+                Intent intent = new Intent(MainActivity.this, creed.IntentClass);
+                intent.putExtra("JsonFileId", creed.JsonFileId);
+                intent.putExtra("Title", creed.CreedTitle);
+                view.getContext().startActivity(intent);
             }
         });
     }

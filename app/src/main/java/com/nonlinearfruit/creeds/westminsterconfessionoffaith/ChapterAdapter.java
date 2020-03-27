@@ -1,0 +1,128 @@
+package com.nonlinearfruit.creeds.westminsterconfessionoffaith;
+
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.Context;
+import android.graphics.Color;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Filter;
+import android.widget.Filterable;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.nonlinearfruit.creeds.R;
+import com.nonlinearfruit.creeds.catechism.models.CatechismQuestion;
+import com.nonlinearfruit.creeds.westminsterconfessionoffaith.models.Chapter;
+import com.nonlinearfruit.creeds.westminsterconfessionoffaith.models.Section;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ChapterAdapter extends ArrayAdapter<Chapter> implements Filterable {
+
+    private List<Chapter> chapters;
+    private Context context;
+    private Filter filter;
+    private List<Chapter> originalChapters;
+
+    public ChapterAdapter(List<Chapter> catechismQnAs, Context ctx) {
+        super(ctx, 0, catechismQnAs);
+        this.chapters = catechismQnAs;
+        this.context = ctx;
+        this.originalChapters = catechismQnAs;
+    }
+
+    public int getCount() {
+        return chapters.size();
+    }
+
+    public Chapter getItem(int position) {
+        return chapters.get(getCount() - position - 1);
+    }
+
+    public long getItemId(int position) {
+        return getItem(position).hashCode();
+    }
+
+    public View getView(int position, View view, ViewGroup parent) {
+        Chapter chapter = getItem(position);
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        if (view == null)
+            view = inflater.inflate(R.layout.item_chapter, null);
+
+        ((TextView) view.findViewById(R.id.item_chapter_number)).setText("Chapter " + chapter.Chapter + ": ");
+        ((TextView) view.findViewById(R.id.item_chapter_title)).setText(chapter.Title);
+
+        LinearLayout sectionHolder = view.findViewById(R.id.item_chapter_section_list);
+        sectionHolder.removeAllViewsInLayout();
+        for (Section section : chapter.Sections)
+            sectionHolder.addView(getSectionView(inflater, chapter, section));
+
+        return view;
+    }
+
+    private View getSectionView(LayoutInflater inflater, final Chapter chapter, final Section section) {
+        View sectionView = inflater.inflate(R.layout.item_section, null);
+        ((TextView) sectionView.findViewById(R.id.item_section_content)).setText(section.Content);
+        ((TextView) sectionView.findViewById(R.id.item_section_number)).setText(chapter.Chapter+"."+section.Section);
+        sectionView.setClickable(true);
+        sectionView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(view.getContext(),"Clicked "+chapter.Chapter+"."+section.Section,Toast.LENGTH_LONG).show();
+            }
+        });
+        return sectionView;
+    }
+
+    @Override
+    public Filter getFilter() {
+        if (filter == null)
+            filter = new ChapterFilter();
+        return filter;
+    }
+
+    private class ChapterFilter extends Filter {
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+            FilterResults results = new FilterResults();
+            if (constraint == null || constraint.length() == 0) {
+                results.values = originalChapters;
+                results.count = originalChapters.size();
+            } else {
+                List<Chapter> matches = new ArrayList<Chapter>();
+                String query = constraint.toString();
+                for (Chapter qna : originalChapters)
+                    if (isMatch(query, qna))
+                        matches.add(qna);
+
+                results.values = matches;
+                results.count = matches.size();
+            }
+            return results;
+        }
+
+        private boolean isMatch(String query, Chapter qna) {
+            return qna.Chapter.toString().equals(query) ||
+                    qna.Title.contains(query);
+        }
+
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            if (results.count == 0) {
+                chapters = (List<Chapter>) results.values;
+                notifyDataSetInvalidated();
+            } else {
+                chapters = (List<Chapter>) results.values;
+                notifyDataSetChanged();
+            }
+        }
+    }
+}
