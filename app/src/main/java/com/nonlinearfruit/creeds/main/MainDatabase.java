@@ -42,6 +42,13 @@ public class MainDatabase {
             JsonFileId = R.raw.westminster_confession_of_faith;
         }});
         add(new MainMenuItem(){{
+            CreedTitle = "Canons of Dort";
+            CreedYear = 1609;
+            CreedOrigin = "";
+            IntentClass = WcfActivity.class;
+            JsonFileId = R.raw.canons_of_dort;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "Heidelberg Catechism";
             CreedYear = 1563;
             CreedOrigin = "";

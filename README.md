@@ -15,14 +15,14 @@
 
 - [x] WCF
 - [x] WLC
-- [x] WSC?
+- [x] WSC
 - [x] First Catechism
-- [x] Apostles' Creed?
-- [x] Nicene Creed?
-- [x] Chalcedonian Creed?
-- [x] Athenasian Creed?
+- [x] Apostles' Creed
+- [x] Nicene Creed
+- [x] Chalcedonian Definition
+- [x] Athenasian Creed
 - [ ] Belgic Confession?
-- [ ] Heidelberg Catechism?
-- [ ] Cannons of Dort?
+- [x] Heidelberg Catechism?
+- [x] Cannons of Dort?
 - [ ] London Baptist Confession?
 - [ ] Puritan Catechism?
