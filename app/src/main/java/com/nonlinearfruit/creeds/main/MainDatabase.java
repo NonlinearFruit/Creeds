@@ -21,11 +21,18 @@ public class MainDatabase {
             JsonFileId = R.raw.first_catechism;
         }});
         add(new MainMenuItem(){{
-            CreedTitle = "Westminster Larger Catechism";
-            CreedYear = 1648;
+            CreedTitle = "Westminster Shorter Catechism";
+            CreedYear = 1647;
             CreedOrigin = "";
             IntentClass = CatechismActivity.class;
-            JsonFileId = R.raw.wlc;
+            JsonFileId = R.raw.westminster_shorter_catechism;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Westminster Larger Catechism";
+            CreedYear = 1647;
+            CreedOrigin = "";
+            IntentClass = CatechismActivity.class;
+            JsonFileId = R.raw.westminster_larger_catechism;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "Westminster Confession of Faith";

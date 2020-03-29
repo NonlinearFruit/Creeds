@@ -2,12 +2,12 @@ package com.nonlinearfruit.creeds.creed;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.nonlinearfruit.creeds.R;
-import com.nonlinearfruit.creeds.confessionofpeter.ConfessionOfPeterDatabase;
 
 public class CreedActivity extends AppCompatActivity {
     @Override
@@ -21,7 +21,8 @@ public class CreedActivity extends AppCompatActivity {
         setTitle(title);
         setContentView(R.layout.activity_paragraph);
 
-        ((TextView) findViewById(R.id.activity_paragraph_paragraph))
-                .setText(new CreedDatabase().getCreed(contentId));
+        TextView textView = findViewById(R.id.activity_paragraph_paragraph);
+        textView.setMovementMethod(new ScrollingMovementMethod());
+        textView.setText(new CreedDatabase().getCreed(contentId));
     }
 }

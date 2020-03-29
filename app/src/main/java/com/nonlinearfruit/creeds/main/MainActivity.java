@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -61,6 +62,11 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
     @Override
     public boolean onQueryTextChange(String newText) {
-        return false;
+        if (TextUtils.isEmpty(newText)) {
+            adapter.getFilter().filter("");
+        } else {
+            adapter.getFilter().filter(newText);
+        }
+        return true;
     }
 }

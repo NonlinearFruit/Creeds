@@ -65,11 +65,11 @@ public class MainAdapter extends ArrayAdapter<MainMenuItem> implements Filterabl
     @Override
     public Filter getFilter() {
         if (filter == null)
-            filter = new CreedFilter();
+            filter = new MainFilter();
         return filter;
     }
 
-    private class CreedFilter extends Filter {
+    private class MainFilter extends Filter {
         @Override
         protected FilterResults performFiltering(CharSequence constraint) {
             FilterResults results = new FilterResults();
@@ -79,9 +79,9 @@ public class MainAdapter extends ArrayAdapter<MainMenuItem> implements Filterabl
             } else {
                 List<MainMenuItem> matches = new ArrayList<MainMenuItem>();
                 String query = constraint.toString();
-                for (MainMenuItem qna : originalCreeds)
-                    if (isMatch(query, qna))
-                        matches.add(qna);
+                for (MainMenuItem item : originalCreeds)
+                    if (isMatch(query, item))
+                        matches.add(item);
 
                 results.values = matches;
                 results.count = matches.size();
@@ -90,7 +90,7 @@ public class MainAdapter extends ArrayAdapter<MainMenuItem> implements Filterabl
         }
 
         private boolean isMatch(String query, MainMenuItem creed) {
-            return (creed.CreedYear + "").equals(query) ||
+            return creed.CreedYear.toString().equals(query) ||
                     creed.CreedTitle.contains(query);
         }
 

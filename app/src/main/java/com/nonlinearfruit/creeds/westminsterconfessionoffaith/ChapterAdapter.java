@@ -98,10 +98,16 @@ public class ChapterAdapter extends ArrayAdapter<Chapter> implements Filterable 
                 results.count = originalChapters.size();
             } else {
                 List<Chapter> matches = new ArrayList<Chapter>();
-                String query = constraint.toString();
-                for (Chapter qna : originalChapters)
-                    if (isMatch(query, qna))
-                        matches.add(qna);
+                String query = constraint.toString().toLowerCase();
+                for (Chapter chapter : originalChapters)
+                    if (isMatch(query, chapter))
+                        matches.add(chapter);
+                    else {
+                        Chapter onlyMatches = getOnlyMatchingSections(query, chapter);
+                        if (!onlyMatches.Sections.isEmpty())
+                            matches.add(onlyMatches);
+                    }
+
 
                 results.values = matches;
                 results.count = matches.size();
@@ -109,9 +115,29 @@ public class ChapterAdapter extends ArrayAdapter<Chapter> implements Filterable 
             return results;
         }
 
-        private boolean isMatch(String query, Chapter qna) {
-            return qna.Chapter.toString().equals(query) ||
-                    qna.Title.contains(query);
+        private boolean isMatch(String query, Chapter chapter) {
+            return chapter.Chapter.toString().equals(query) ||
+                    chapter.Title.toLowerCase().contains(query);
+        }
+
+        private Chapter getOnlyMatchingSections(String query, final Chapter chapter) {
+            Chapter onlyMatches = new Chapter(){{
+               Chapter = chapter.Chapter;
+               Title = chapter.Title;
+               Proofs = chapter.Proofs;
+               ProofsWithScripture = chapter.ProofsWithScripture;
+               Sections = new ArrayList<Section>();
+            }};
+
+            for (Section section : chapter.Sections)
+                if (isMatch(query, section))
+                    onlyMatches.Sections.add(section);
+            return onlyMatches;
+        }
+
+        private boolean isMatch(String query, Section section) {
+            return section.Section.toString().equals(query) ||
+                    section.Content.toLowerCase().contains(query);
         }
 
         @Override
