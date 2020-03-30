@@ -1,25 +1,19 @@
-package com.nonlinearfruit.creeds.westminsterconfessionoffaith;
+package com.nonlinearfruit.creeds.confession;
 
-import android.content.ClipData;
-import android.content.ClipboardManager;
 import android.content.Context;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.nonlinearfruit.creeds.R;
-import com.nonlinearfruit.creeds.catechism.models.CatechismQuestion;
-import com.nonlinearfruit.creeds.westminsterconfessionoffaith.models.Chapter;
-import com.nonlinearfruit.creeds.westminsterconfessionoffaith.models.Section;
+import com.nonlinearfruit.creeds.confession.models.Chapter;
+import com.nonlinearfruit.creeds.confession.models.Section;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,11 @@
-package com.nonlinearfruit.creeds.westminsterconfessionoffaith;
+package com.nonlinearfruit.creeds.confession;
 
 import android.content.Context;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.nonlinearfruit.creeds.westminsterconfessionoffaith.models.Chapter;
-import com.nonlinearfruit.creeds.westminsterconfessionoffaith.models.Section;
+import com.nonlinearfruit.creeds.confession.models.Chapter;
+import com.nonlinearfruit.creeds.confession.models.Section;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class WcfDatabase {
+public class ConfessionDatabase {
     private List<Chapter> chapters = new ArrayList<Chapter>(){{
         add(new Chapter(){{
             Chapter = 1;
@@ -36,7 +36,7 @@ public class WcfDatabase {
 
     private int jsonFileId;
 
-    public WcfDatabase(int jsonFileId) {
+    public ConfessionDatabase(int jsonFileId) {
 
         this.jsonFileId = jsonFileId;
     }

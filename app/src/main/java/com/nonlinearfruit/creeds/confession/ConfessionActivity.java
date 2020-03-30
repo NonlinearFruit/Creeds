@@ -1,24 +1,21 @@
-package com.nonlinearfruit.creeds.westminsterconfessionoffaith;
+package com.nonlinearfruit.creeds.confession;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.nonlinearfruit.creeds.R;
-import com.nonlinearfruit.creeds.westminsterconfessionoffaith.models.Chapter;
+import com.nonlinearfruit.creeds.confession.models.Chapter;
 
 import java.util.List;
 
-public class WcfActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
+public class ConfessionActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
     private ArrayAdapter adapter;
 
@@ -39,7 +36,7 @@ public class WcfActivity extends AppCompatActivity implements SearchView.OnQuery
     private ChapterAdapter setupAdapter(String title) {
         Intent intent = getIntent();
         int jsonFile = intent.getIntExtra("JsonFileId",1); // TODO: Defaulting to 1 could be _bad_
-        WcfDatabase db = new WcfDatabase(jsonFile);
+        ConfessionDatabase db = new ConfessionDatabase(jsonFile);
         List<Chapter> data;
 
         try{

@@ -1,4 +1,4 @@
-package com.nonlinearfruit.creeds.westminsterconfessionoffaith.models;
+package com.nonlinearfruit.creeds.confession.models;
 
 public class Section {
     public String Section;

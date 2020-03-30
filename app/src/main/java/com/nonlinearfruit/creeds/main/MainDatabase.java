@@ -5,7 +5,7 @@ import com.nonlinearfruit.creeds.catechism.CatechismActivity;
 import com.nonlinearfruit.creeds.creed.CreedActivity;
 import com.nonlinearfruit.creeds.creed.CreedLookup;
 import com.nonlinearfruit.creeds.main.models.MainMenuItem;
-import com.nonlinearfruit.creeds.westminsterconfessionoffaith.WcfActivity;
+import com.nonlinearfruit.creeds.confession.ConfessionActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,14 +38,14 @@ public class MainDatabase {
             CreedTitle = "Westminster Confession of Faith";
             CreedYear = 1647;
             CreedOrigin = "";
-            IntentClass = WcfActivity.class;
+            IntentClass = ConfessionActivity.class;
             JsonFileId = R.raw.westminster_confession_of_faith;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "Canons of Dort";
             CreedYear = 1609;
             CreedOrigin = "";
-            IntentClass = WcfActivity.class;
+            IntentClass = ConfessionActivity.class;
             JsonFileId = R.raw.canons_of_dort;
         }});
         add(new MainMenuItem(){{

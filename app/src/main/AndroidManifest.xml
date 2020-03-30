@@ -20,7 +20,7 @@
             android:label="Catechism"></activity>
         <activity android:name=".creed.CreedActivity"
             android:label="Creed"></activity>
-        <activity android:name=".westminsterconfessionoffaith.WcfActivity"
+        <activity android:name=".confession.ConfessionActivity"
             android:label="Westminster Confession of Faith"></activity>
     </application>
 
