@@ -21,7 +21,9 @@
         <activity android:name=".creed.CreedActivity"
             android:label="Creed"></activity>
         <activity android:name=".confession.ConfessionActivity"
-            android:label="Westminster Confession of Faith"></activity>
+            android:label="Confession"></activity>
+        <activity android:name=".canon.CanonActivity"
+            android:label="Canon"></activity>
     </application>
 
 </manifest>

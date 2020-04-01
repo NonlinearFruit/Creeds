@@ -1,6 +1,7 @@
 package com.nonlinearfruit.creeds.main;
 
 import com.nonlinearfruit.creeds.R;
+import com.nonlinearfruit.creeds.canon.CanonActivity;
 import com.nonlinearfruit.creeds.catechism.CatechismActivity;
 import com.nonlinearfruit.creeds.creed.CreedActivity;
 import com.nonlinearfruit.creeds.creed.CreedLookup;
@@ -43,7 +44,7 @@ public class MainDatabase {
         }});
         add(new MainMenuItem(){{
             CreedTitle = "Canons of Dort";
-            CreedYear = 1609;
+            CreedYear = 1619;
             CreedOrigin = "";
             IntentClass = ConfessionActivity.class;
             JsonFileId = R.raw.canons_of_dort;
@@ -54,6 +55,13 @@ public class MainDatabase {
             CreedOrigin = "";
             IntentClass = CatechismActivity.class;
             JsonFileId = R.raw.heidelberg_catechism;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Belgic Confession of Faith";
+            CreedYear = 1561;
+            CreedOrigin = "";
+            IntentClass = CanonActivity.class;
+            JsonFileId = R.raw.belgic_confession_of_faith;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "Athanasian Creed";
