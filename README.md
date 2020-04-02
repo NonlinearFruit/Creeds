@@ -1,4 +1,10 @@
-# Creeds
+<p align="center">
+  <img src="./metadata/creeds_logo.png">
+</p>
+
+<h1 align="center">
+  Creeds
+</h1>
 
 ## Definitions
 

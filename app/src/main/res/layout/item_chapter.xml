@@ -2,7 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingRight="9dp"
+    android:paddingLeft="9dp">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -15,15 +19,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chapter #: "
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:textAppearance="@style/MajorNumber" />
 
         <TextView
             android:id="@+id/item_chapter_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Of Holy Scripture"
-            android:textStyle="bold"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:textAppearance="@style/MajorHeader" />
     </LinearLayout>
 
     <LinearLayout

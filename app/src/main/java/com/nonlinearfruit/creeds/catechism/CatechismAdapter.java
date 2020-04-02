@@ -10,6 +10,8 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
+import androidx.core.content.ContextCompat;
+
 import com.nonlinearfruit.creeds.R;
 import com.nonlinearfruit.creeds.catechism.models.CatechismQuestion;
 
@@ -54,10 +56,12 @@ public class CatechismAdapter extends ArrayAdapter<CatechismQuestion> implements
         ((TextView) view.findViewById(R.id.question)).setText(p.Question);
         ((TextView) view.findViewById(R.id.answer)).setText(p.Answer);
 
-        if (position%2==0)
-            view.setBackgroundColor(Color.LTGRAY);
+        int color;
+        if (position % 2 == 0)
+            color = ContextCompat.getColor(context, R.color.listItemPlain);
         else
-            view.setBackgroundColor(Color.WHITE);
+            color = ContextCompat.getColor(context, R.color.listItemAccented);
+        view.setBackgroundColor(color);
 
         return view;
     }

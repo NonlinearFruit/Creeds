@@ -10,20 +10,19 @@
 
         <TextView
             android:id="@+id/item_section_number"
-            android:layout_width="50dp"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:paddingEnd="4dp"
+            android:paddingRight="4dp"
             android:text="33.33"
             android:textAlignment="viewEnd"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            android:textAppearance="@style/MinorNumber" />
 
         <TextView
             android:id="@+id/item_section_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Section textSection textSection textSection textSection textSection textSection textSection text"
-            android:lineSpacingMultiplier="1"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            android:textAppearance="@style/PlainText" />
     </LinearLayout>
 
 </LinearLayout>

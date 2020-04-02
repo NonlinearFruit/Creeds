@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="creeds_logo.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="909.4882"
+     inkscape:cy="905.35486"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4516"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <title
+     id="title4561">Creeds Logo</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient5834"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#f5f5f5;stop-opacity:1;"
+         offset="0"
+         id="stop5832" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5719"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#dbc199;stop-opacity:1;"
+         offset="0"
+         id="stop5717" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4801"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4798"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <linearGradient
+       id="linearGradient4590">
+      <stop
+         style="stop-color:#dbc199;stop-opacity:1;"
+         offset="0"
+         id="stop4588" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4584"
+       osb:paint="solid"
+       gradientTransform="matrix(0.01488487,0,0,0.01488487,1826.6041,-293.04121)">
+      <stop
+         style="stop-color:#dbc199;stop-opacity:1;"
+         offset="0"
+         id="stop4582" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4578"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#577e8c;stop-opacity:1;"
+         offset="0"
+         id="stop4576" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4650-0"
+       x="-0.0081153512"
+       width="1.0162307"
+       y="-0.023018453"
+       height="1.046037">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.095720225"
+         id="feGaussianBlur4652-3" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4578"
+       id="linearGradient4580-2"
+       x1="6300.9688"
+       y1="-860.50391"
+       x2="6653.1665"
+       y2="-860.50391"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.26458332,0,0,0.26458332,113.25037,4.3163328)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4584"
+       id="linearGradient5788"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(113.25033,4.3163437)"
+       x1="1703.7232"
+       y1="-230.61496"
+       x2="1733.1463"
+       y2="-230.61496" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4584"
+       id="linearGradient5790"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(113.25033,4.3163437)"
+       x1="1703.7232"
+       y1="-230.61496"
+       x2="1733.1463"
+       y2="-230.61496" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5834"
+       id="linearGradient5836"
+       x1="1058.2695"
+       y1="495.86133"
+       x2="1922.332"
+       y2="495.86133"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Creeds Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4559"
+       transform="translate(-22.090828,-11.007602)">
+      <g
+         transform="translate(0,-32.41665)"
+         style="display:inline"
+         id="layer1-2"
+         inkscape:label="Растр" />
+      <g
+         id="g4516"
+         transform="matrix(2.4819787,0,0,2.4819787,-4110.3923,626.60657)"
+         inkscape:export-xdpi="23.616198"
+         inkscape:export-ydpi="23.616198">
+        <g
+           id="g5830"
+           transform="translate(-120.2468,-10.020567)"
+           inkscape:export-filename="C:\Projects\Creeds\metadata\creeds_logo.png"
+           inkscape:export-xdpi="23.616198"
+           inkscape:export-ydpi="23.616198">
+          <path
+             id="rect5715-6"
+             transform="matrix(0.10660177,0,0,0.10660177,1664.9954,-248.0275)"
+             d="m 1338.1914,172.51953 17.9258,70.39063 -297.8477,75.84765 v 89.75391 l 26.4512,20.50781 -26.4512,34.11328 v 94.66016 l 25.8633,20.05273 -25.8633,33.35938 V 717.46875 L 1560.0254,819.20312 1922.332,614.31836 V 172.51953 Z"
+             style="opacity:1;fill:url(#linearGradient5836);fill-opacity:1;stroke:none;stroke-width:205.77377319;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#577e8c;stroke-width:2.99900007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 1783.0168,-185.75557 c -3.4831,-6e-5 -6.3067,3.45812 -6.3067,7.72402 0,4.2659 2.5563,7.18954 6.3067,7.72402 l 46.9069,10.30393 42.1444,-23.718"
+             id="path4513-6-6"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="csccc" />
+          <path
+             style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#577e8c;stroke-width:2.99900007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 1783.0168,-201.20361 c -3.4831,-6e-5 -6.3067,3.45812 -6.3067,7.72402 0,4.2659 2.5563,7.18954 6.3067,7.72402 l 46.9069,10.30393 42.1444,-23.718"
+             id="path4513-6-7-8"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="csccc" />
+          <path
+             style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#577e8c;stroke-width:2.99900007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 1783.0168,-216.65165 c -3.4831,-6e-5 -6.3067,3.45812 -6.3067,7.72402 0,4.2659 2.5563,7.18954 6.3067,7.72402 l 22.8809,5.02619 m 13.6936,3.00805 10.3324,2.26969 42.1444,-23.718"
+             id="path4513-6-7-5-3-9"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="csccccc" />
+          <path
+             sodipodi:nodetypes="ccccc"
+             inkscape:connector-curvature="0"
+             style="opacity:1;vector-effect:none;fill:url(#linearGradient4580-2);fill-opacity:1;stroke:#577e8c;stroke-width:2.99900007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 1825.1614,-240.36949 -43.2805,23.71784 48.043,10.30385 42.1442,-23.71793 z"
+             id="path4513-6-7-5-3-5-8" />
+          <path
+             inkscape:connector-curvature="0"
+             style="opacity:1;vector-effect:none;fill:url(#linearGradient5788);fill-opacity:1;stroke:url(#linearGradient5790);stroke-width:1.11534715;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;filter:url(#filter4650-0)"
+             d="m 1828.3942,-231.28871 -10.863,6.14815 17.4451,3.83204 10.8628,-6.14815 z"
+             id="path4513-6-7-5-3-5-2-2"
+             sodipodi:nodetypes="ccccc" />
+          <path
+             style="fill:#dbc199;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1809.513,-204.13232 v 15.68601 l 3.4963,-2.17336 3.8743,4.25223 v -16.53646 z"
+             id="path4508-4"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

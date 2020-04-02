@@ -8,4 +8,31 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MajorHeader" parent="TextAppearance.AppCompat">
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="MinorHeader" parent="TextAppearance.AppCompat">
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="MajorNumber" parent="TextAppearance.AppCompat">
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="MinorNumber" parent="TextAppearance.AppCompat">
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="PlainText" parent="TextAppearance.AppCompat">
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textSize">16sp</item>
+    </style>
 </resources>

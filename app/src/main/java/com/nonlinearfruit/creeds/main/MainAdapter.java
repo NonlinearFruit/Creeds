@@ -11,6 +11,7 @@ import android.widget.Filterable;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 
 import com.nonlinearfruit.creeds.R;
 import com.nonlinearfruit.creeds.main.models.MainMenuItem;
@@ -54,10 +55,12 @@ public class MainAdapter extends ArrayAdapter<MainMenuItem> implements Filterabl
         ((TextView) view.findViewById(R.id.item_mainmenu_title)).setText(p.CreedTitle);
         ((TextView) view.findViewById(R.id.item_mainmenu_year)).setText(p.CreedYear + " AD");
 
+        int color;
         if (position % 2 == 0)
-            view.setBackgroundColor(Color.LTGRAY);
+            color = ContextCompat.getColor(context, R.color.listItemPlain);
         else
-            view.setBackgroundColor(Color.WHITE);
+            color = ContextCompat.getColor(context, R.color.listItemAccented);
+        view.setBackgroundColor(color);
 
         return view;
     }
