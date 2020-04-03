@@ -4,19 +4,24 @@
     <color name="colorPrimaryDark">@color/gray</color>
     <color name="colorAccent">@color/yellow</color>
 
-    <color name="defaultPrimary">#008577</color>
-    <color name="defaultPrimaryDark">#00574B</color>
-    <color name="defaultAccent">#D81B60</color>
-
-    <color name="listItemAccented">@color/gray_light_variation</color>
+    <color name="listItemAccented">@color/gray_lightest</color>
     <color name="listItemPlain">@color/background</color>
+    <color name="numberColor">@color/gray_darkest</color>
     <color name="background">@color/white</color>
 
+    <!-- Private Colors (don't use outside colors.xml) -->
     <color name="white">#FFFFFF</color>
+
+    <color name="gray_darkest">#5B5F64</color>
+    <color name="gray_darker">#75797D</color>
     <color name="gray">#919497</color>
-    <color name="gray_light_variation">#f5f5f5</color>
+    <color name="gray_lighter">#BBBCBE</color>
+    <color name="gray_lightest">#F3F3F3</color>
+
     <color name="dark_blue">#577E8C</color>
     <color name="dark_blue_light_variation">#e2e7e9</color>
+
     <color name="yellow">#DBC199</color>
+
     <color name="lightBlue">#81DED9</color>
 </resources>

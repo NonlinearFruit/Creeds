@@ -11,28 +11,36 @@
     <style name="MajorHeader" parent="TextAppearance.AppCompat">
         <item name="android:lineSpacingMultiplier">1</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="MinorHeader" parent="TextAppearance.AppCompat">
         <item name="android:lineSpacingMultiplier">1</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="MajorNumber" parent="TextAppearance.AppCompat">
         <item name="android:lineSpacingMultiplier">1</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/numberColor</item>
     </style>
 
     <style name="MinorNumber" parent="TextAppearance.AppCompat">
         <item name="android:lineSpacingMultiplier">1</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/numberColor</item>
     </style>
 
     <style name="PlainText" parent="TextAppearance.AppCompat">
         <item name="android:lineSpacingMultiplier">1</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
         <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PadFad">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingRight">9dp</item>
+        <item name="android:paddingLeft">9dp</item>
     </style>
 </resources>

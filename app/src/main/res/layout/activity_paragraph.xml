@@ -11,14 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="activity_paragraph_paragraph"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:paddingRight="9dp"
-        android:paddingLeft="9dp"
         android:scrollbars = "vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textAppearance="@style/PlainText" />
+        android:textAppearance="@style/PlainText"
+        style="@style/PadFad" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

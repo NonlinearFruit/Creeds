@@ -22,6 +22,13 @@ public class MainDatabase {
             JsonFileId = R.raw.first_catechism;
         }});
         add(new MainMenuItem(){{
+            CreedTitle = "London Baptist 1689 Confession of Faith";
+            CreedYear = 1689;
+            CreedOrigin = "";
+            IntentClass = ConfessionActivity.class;
+            JsonFileId = R.raw.london_baptist_1689;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "Westminster Shorter Catechism";
             CreedYear = 1647;
             CreedOrigin = "";

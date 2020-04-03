@@ -10,7 +10,7 @@
 
         <TextView
             android:id="@+id/item_section_number"
-            android:layout_width="40dp"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:paddingRight="4dp"
             android:text="33.33"

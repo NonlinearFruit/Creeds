@@ -59,7 +59,7 @@ Christ died, was raised, then list of eyewitnesses to the resurrection (1 Corint
 - [x] Belgic Confession
 - [x] Heidelberg Catechism
 - [x] Cannons of Dort
-- [ ] London Baptist Confession?
+- [x] London Baptist Confession
 - [ ] Puritan Catechism?
 
 ### Reformed-ish Ones
@@ -82,7 +82,7 @@ Christ died, was raised, then list of eyewitnesses to the resurrection (1 Corint
  - [x] Westminster Confession of Faith 1646
  - [ ] Savoy Declaration 1658
  - [ ] Helvetic Consensus (1675)
- - [ ] Second London Confession of Faith (1677/1689)
+ - [x] Second London Confession of Faith (1677/1689)
  - [ ] Walcheren Articles (1693)
  - [ ] Belhar Confession, Dutch Reformed Mission Church (1986)
  - [ ] Cambridge Declaration (1996)
