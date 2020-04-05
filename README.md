@@ -16,6 +16,24 @@ If there are better (more descriptive) words, let us know!
  - Confession: List of Chapters (Title + List of Sections (Text))
  - Canon: List of Articles (Title + Text)
 
+## Included
+
+- [x] Shema Yisrael
+- [x] Confession of Peter
+- [x] Nicene Creed
+- [x] Chalcedonian Definition
+- [x] Apostles' Creed
+- [x] Scots Confession
+- [x] Belgic Confession of Faith
+- [x] Heidelberg Catechism
+- [x] Canons of Dort
+- [x] WCF
+- [x] WLC
+- [x] WSC
+- [x] London Baptist 1689
+- [x] Chicago Statement on Biblical Inerrancy
+- [x] First Catechism
+
 ## Creeds To Do
 
 ### Biblical Ones
@@ -60,7 +78,7 @@ Christ died, was raised, then list of eyewitnesses to the resurrection (1 Corint
 - [x] Heidelberg Catechism
 - [x] Cannons of Dort
 - [x] London Baptist Confession
-- [ ] Puritan Catechism?
+- [ ] Puritan Catechism
 
 ### Reformed-ish Ones
 
@@ -69,7 +87,7 @@ Christ died, was raised, then list of eyewitnesses to the resurrection (1 Corint
  - [ ] Ten Conclusions of Berne (1528)
  - [ ] First Helvetic Confession (1536)
  - [ ] The Consensus of Geneva (1552)
- - [ ] First Scotch Confession (1560)
+ - [x] First Scotch Confession (1560)
  - [ ] Craig's Catechism (1581)
  - [ ] Second Helvetic Confession (1586)
  - [ ] Gallican Confession (1559)
@@ -88,3 +106,95 @@ Christ died, was raised, then list of eyewitnesses to the resurrection (1 Corint
  - [ ] Cambridge Declaration (1996)
 
  source: https://www.wikiwand.com/en/List_of_Christian_creeds#/Reformed
+
+ ### Monergism Article - BB Warfield
+
+ - [ ] ZWINGLI'S FIDEI RATIO (1530)
+ - [ ] ZWINGLI'S EXPOSITIO CHR. FIDEI (1531)
+ - [ ] THE TETRAPOLITAN CONFESSION (1530)
+ - [ ] FIRST BOHEMIAN CONFESSION (1535)
+ - [ ] SECOND BOHEMIAN CONFESSION (1575)
+ - [ ] FIRST BASLE OR MÜHLHAUSEN CONFESSION (1534)
+ - [ ] FIRST HELVETIC OR SECOND BASLE CONFESSION (1536)
+ - [ ] THE HUNGARIAN CONFESSION (1557-1558)
+ - [ ] SECOND HELVETIC CONFESSION (1562, 1566)
+ - [ ] HEIDELBERG CATECHISM (1563)
+ - [ ] ANHALT REPETITION (1581)
+ - [ ] BRANDENBURG CONFESSIONS
+   - [ ] The Confession of Sigismund (1614)
+   - [ ] The Leipzig Colloquy (1631)
+   - [ ] The Declaration of Thorn (1645)
+ - [ ] FIRST GENEVAN CONFESSION (1536)
+ - [ ] GENEVAN CONFESSION (1537)
+ - [ ] GENEVAN CATECHISM (1545)
+ - [ ] CONSENSUS TIGURINUS (1549)
+ - [ ] CONSENSUS GENEVENSIS (1552)
+ - [ ] CALVIN'S ARTICLES ON PREDESTINATION
+ - [ ] GENEVAN STUDENTS' CONFESSION (1559)
+ - [ ] CONFESSION FOR THE CHURCH AT PARIS (1557)
+ - [ ] CONFESSION FOR THE FRENCH CHURCHES, TO BE PRESENTED TO THE EMPEROR (1562)
+ - [ ] THE FRENCH CONFESSION (1559)
+ - [x] THE BELGIC CONFESSION (1561)
+ - [ ] CONFESSION OF THE ENGLISH CONGREGATION AT GENEVA (1558)
+ - [x] THE SCOTCH CONFESSION (1560)
+ - [ ] CRAIG'S CATECHISM (1581)
+ - [ ] THE ENGLISH ARTICLES (1553)
+ - [ ] THE LAMBETH ARTICLES (1595)
+ - [ ] THE IRISH ARTICLES (1615)
+ - [x] WESTMINSTER CONFESSION (1647)
+ - [x] WESTMINSTER LARGER CATECHISM (1647)
+ - [x] WESTMINSTER SHORTER CATECHISM (1648)
+ - [x] CANONS OF DORT (1618-1619)
+ - [ ] FORMULA CONSENSUS HELVETICA (1675)
+
+ source: https://www.monergism.com/thethreshold/sdg/warfield/warfield_predestconf.html
+
+### Blue Letter Bible
+
+ - [x] The Apostles' Creed
+ - [x] The Athanasian Creed
+ - [x] The Nicene Creed
+ - [x] Heidelberg Catechism of 1563
+ - [ ] Matthew Henry
+   - [ ] A Scripture Catechism, in the Method of the Assemblies
+   - [ ] A Plain Catechism for Children
+   - [ ] A Short Catechism about the Lord's Supper
+   - [ ] A Paraphrase on the Lord's Prayer, in Scripture Expressions
+ - [ ] Charles Spurgeon
+   - [ ] A Puritan Catechism with Proofs
+ - [ ] Augsburg Confession of 1530
+ - [x] Westminster Confession of 1646
+ - [x] Baptist Confession of 1689
+
+source: https://www.blueletterbible.org/study/ccc/index.cfm
+
+### Reformed Standards
+
+ - [ ] Westminster Standards
+   - [x] Westminster Confession of Faith
+   - [x] Westminster Shorter Catechism
+   - [x] Westminster Larger Catechism
+   - [ ] The Solemn League and Covenant
+   - [ ] The Sum of Saving Knowledge
+
+ - [x] Three forms of unity
+   - [x] The Belgic Confession of Faith
+   - [x] Heidelberg Catechism
+   - [x] Canons of Dort
+
+ - [ ] London Baptist
+   - [x] 1689 London Baptist Confession of Faith
+   - [ ] Keach's Catechism
+   - [ ] Abstract of Principles of 1858
+
+ - [ ] Ancient church
+  - [x] The Apostles' Creed
+  - [x] The Nicene Creed
+  - [x] Athanasian Creed
+  - [x] Chalcedonian Definition
+
+ - [ ] The Second Helvetic Confession
+ - [ ] Savoy Declaration of Faith
+ - [ ] Catechism for Young Children
+
+source: https://reformedstandards.com

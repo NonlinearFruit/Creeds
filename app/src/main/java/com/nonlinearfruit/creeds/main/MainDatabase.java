@@ -22,6 +22,13 @@ public class MainDatabase {
             JsonFileId = R.raw.first_catechism;
         }});
         add(new MainMenuItem(){{
+            CreedTitle = "Chicago Statement on Biblical Inerrancy";
+            CreedYear = 1978;
+            CreedOrigin = "Copyright 1978 - International Council on Biblical Inerrancy";
+            IntentClass = CanonActivity.class;
+            JsonFileId = R.raw.chicago_statement_on_biblical_inerrancy;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "London Baptist 1689 Confession of Faith";
             CreedYear = 1689;
             CreedOrigin = "";
@@ -69,6 +76,13 @@ public class MainDatabase {
             CreedOrigin = "";
             IntentClass = CanonActivity.class;
             JsonFileId = R.raw.belgic_confession_of_faith;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Scots Confession";
+            CreedYear = 1560;
+            CreedOrigin = "";
+            IntentClass = CanonActivity.class;
+            JsonFileId = R.raw.scots_confession;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "Athanasian Creed";
