@@ -23,6 +23,7 @@ If there are better (more descriptive) words, let us know!
 - [x] Nicene Creed
 - [x] Chalcedonian Definition
 - [x] Apostles' Creed
+- [x] Zwingli's 67 Articles
 - [x] Scots Confession
 - [x] Belgic Confession of Faith
 - [x] Heidelberg Catechism
@@ -33,6 +34,9 @@ If there are better (more descriptive) words, let us know!
 - [x] London Baptist 1689
 - [x] Chicago Statement on Biblical Inerrancy
 - [x] First Catechism
+- [x] Puritan Catechism
+- [x] Keach's Catechism
+- [x] Zwingli's 67 Articles
 
 ## Creeds To Do
 
@@ -64,25 +68,26 @@ Pre-New Testament Creeds in the New Testament (1 Timothy 2:5, Phil 2:6-11, 1 Tim
 
 Christ died, was raised, then list of eyewitnesses to the resurrection (1 Corinthians 15:3-10)
 
+More: https://www.addeigloriam.org/creeds/bible-creed.htm
+
 ### Reformed Pub-ish
 
-- [x] WCF
-- [x] WLC
-- [x] WSC
-- [x] First Catechism
-- [x] Apostles' Creed
-- [x] Nicene Creed
-- [x] Chalcedonian Definition
-- [x] Athenasian Creed
-- [x] Belgic Confession
-- [x] Heidelberg Catechism
-- [x] Cannons of Dort
-- [x] London Baptist Confession
-- [ ] Puritan Catechism
+ - [x] WCF
+ - [x] WLC
+ - [x] WSC
+ - [x] First Catechism
+ - [x] Apostles' Creed
+ - [x] Nicene Creed
+ - [x] Chalcedonian Definition
+ - [x] Athenasian Creed
+ - [x] Belgic Confession
+ - [x] Heidelberg Catechism
+ - [x] Cannons of Dort
+ - [x] London Baptist Confession
 
 ### Reformed-ish Ones
 
- - [ ] The Sixty-seven Articles of Ulrigh Zwingli (1523)
+ - [x] The Sixty-seven Articles of Ulrigh Zwingli (1523)
  - [ ] The Evangelical Counsel of Ansbach (1524)
  - [ ] Ten Conclusions of Berne (1528)
  - [ ] First Helvetic Confession (1536)
@@ -160,8 +165,8 @@ Christ died, was raised, then list of eyewitnesses to the resurrection (1 Corint
    - [ ] A Plain Catechism for Children
    - [ ] A Short Catechism about the Lord's Supper
    - [ ] A Paraphrase on the Lord's Prayer, in Scripture Expressions
- - [ ] Charles Spurgeon
-   - [ ] A Puritan Catechism with Proofs
+ - [x] Charles Spurgeon
+   - [x] A Puritan Catechism with Proofs
  - [ ] Augsburg Confession of 1530
  - [x] Westminster Confession of 1646
  - [x] Baptist Confession of 1689
@@ -170,12 +175,10 @@ source: https://www.blueletterbible.org/study/ccc/index.cfm
 
 ### Reformed Standards
 
- - [ ] Westminster Standards
+ - [x] Westminster Standards
    - [x] Westminster Confession of Faith
    - [x] Westminster Shorter Catechism
    - [x] Westminster Larger Catechism
-   - [ ] The Solemn League and Covenant
-   - [ ] The Sum of Saving Knowledge
 
  - [x] Three forms of unity
    - [x] The Belgic Confession of Faith
@@ -184,7 +187,7 @@ source: https://www.blueletterbible.org/study/ccc/index.cfm
 
  - [ ] London Baptist
    - [x] 1689 London Baptist Confession of Faith
-   - [ ] Keach's Catechism
+   - [x] Keach's Catechism
    - [ ] Abstract of Principles of 1858
 
  - [ ] Ancient church
@@ -198,3 +201,18 @@ source: https://www.blueletterbible.org/study/ccc/index.cfm
  - [ ] Catechism for Young Children
 
 source: https://reformedstandards.com
+
+## OPC - John Muether
+
+ - [x] Sixty-Seven Articles of Ulrich Zwingli (1523)
+ - [ ] Tetrapolitan Confession (1530)
+ - [ ] First Helvetic Confession (1536)
+ - [ ] French Confession of Faith (1559)
+ - [x] Scots Confession (1560)
+ - [x] Belgic Confession of Faith (1561)
+ - [x] Heidelberg Catechism (1563)
+ - [ ] Second Helvetic Confession (1566)
+ - [x] Canons of the Synod of Dordt (1619)
+ - [x] Westminster Confession & Catechisms (1643)
+
+source: https://opc.org/os.html?article_id=595&issue_id=121
