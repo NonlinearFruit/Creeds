@@ -31,12 +31,11 @@ If there are better (more descriptive) words, let us know!
 - [x] WCF
 - [x] WLC
 - [x] WSC
+- [x] Keach's Catechism
 - [x] London Baptist 1689
+- [x] Puritan Catechism
 - [x] Chicago Statement on Biblical Inerrancy
 - [x] First Catechism
-- [x] Puritan Catechism
-- [x] Keach's Catechism
-- [x] Zwingli's 67 Articles
 
 ## Creeds To Do
 

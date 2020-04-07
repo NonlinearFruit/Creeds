@@ -85,6 +85,13 @@ public class MainDatabase {
             JsonFileId = R.raw.heidelberg_catechism;
         }});
         add(new MainMenuItem(){{
+            CreedTitle = "Second Helvetic Confession";
+            CreedYear = 1562;
+            CreedOrigin = "";
+            IntentClass = ConfessionActivity.class;
+            JsonFileId = R.raw.second_helvetic_confession;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "Belgic Confession of Faith";
             CreedYear = 1561;
             CreedOrigin = "";
@@ -97,6 +104,13 @@ public class MainDatabase {
             CreedOrigin = "";
             IntentClass = CanonActivity.class;
             JsonFileId = R.raw.scots_confession;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Augsburg Confession";
+            CreedYear = 1530;
+            CreedOrigin = "";
+            IntentClass = ConfessionActivity.class;
+            JsonFileId = R.raw.augsburg_confession;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "Zwingli's 67 Articles";
