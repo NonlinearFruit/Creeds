@@ -1,10 +1,6 @@
 <p align="center">
-  <img src="./metadata/creeds_logo.png">
+  <img src="./metadata/feature_graphic.png">
 </p>
-
-<h1 align="center">
-  Creeds
-</h1>
 
 ## Definitions
 

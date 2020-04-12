@@ -14,13 +14,13 @@ import java.util.List;
 public class MainDatabase {
 
     private List<MainMenuItem> items = new ArrayList<MainMenuItem>(){{
-        add(new MainMenuItem(){{
-            CreedTitle = "First Catechism";
-            CreedYear = 1996;
-            CreedOrigin = "Copyright 2003 - Great Commission Publications, Inc";
-            IntentClass = CatechismActivity.class;
-            JsonFileId = R.raw.first_catechism;
-        }});
+        //add(new MainMenuItem(){{
+        //    CreedTitle = "First Catechism";
+        //    CreedYear = 1996;
+        //    CreedOrigin = "Copyright 2003 - Great Commission Publications, Inc";
+        //    IntentClass = CatechismActivity.class;
+        //    JsonFileId = R.raw.first_catechism;
+        //}});
         add(new MainMenuItem(){{
             CreedTitle = "Chicago Statement on Biblical Inerrancy";
             CreedYear = 1978;
