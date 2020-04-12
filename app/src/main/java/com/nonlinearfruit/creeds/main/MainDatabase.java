@@ -106,6 +106,13 @@ public class MainDatabase {
             JsonFileId = R.raw.scots_confession;
         }});
         add(new MainMenuItem(){{
+            CreedTitle = "French Confession of Faith";
+            CreedYear = 1559;
+            CreedOrigin = "";
+            IntentClass = CanonActivity.class;
+            JsonFileId = R.raw.french_confession_of_faith;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "Augsburg Confession";
             CreedYear = 1530;
             CreedOrigin = "";

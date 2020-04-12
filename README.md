@@ -24,6 +24,8 @@ If there are better (more descriptive) words, let us know!
 - [x] Chalcedonian Definition
 - [x] Apostles' Creed
 - [x] Zwingli's 67 Articles
+- [x] Ausburg Confession
+- [x] French Confession of Faith
 - [x] Scots Confession
 - [x] Belgic Confession of Faith
 - [x] Heidelberg Catechism
@@ -43,17 +45,9 @@ If there are better (more descriptive) words, let us know!
 
 - [x] Deuteronomy 6:4
 - [x] Matthew 16:16
-- [ ] 1 Cor 15:3-4
-- [ ] Eph 4:4-6
-
-This is a faithful saying, and worthy of all acceptation, that Christ Jesus came into the world to save sinners; of whom I am chief.
-— 1 Timothy 1:15, KJV
-
-This is a true saying, if a man desire the office of a bishop, he desireth a good work.
-— 1 Timothy 3:1, KJV
-
-For bodily exercise profiteth little: but godliness is profitable unto all things, having promise of the life that now is, and of that which is to come. This is a faithful saying and worthy of all acceptation.
-— 1 Timothy 4:8-9[2], KJV
+- [ ] 1 Cor 15:3-4 "For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures, (ESV)""
+- [ ] Eph 4:4-6 "There is one body and one Spirit—just as you were called to the one hope that belongs to your call—one Lord, one faith, one baptism, one God and Father of all, who is over all and through all and in all. (ESV)"
+- [ ] 1 Timothy 1:15 "The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners, of whom I am the foremost. (ESV)"
 
 It is a faithful saying: For if we be dead with him, we shall also live with him: If we suffer, we shall also reign with him: if we deny him, he also will deny us: If we believe not, yet he abideth faithful: he cannot deny himself.
 — 2 Timothy 2:11-13, KJV
@@ -68,21 +62,6 @@ Pre-New Testament Creeds in the New Testament (1 Timothy 2:5, Phil 2:6-11, 1 Tim
 Christ died, was raised, then list of eyewitnesses to the resurrection (1 Corinthians 15:3-10)
 
 More: https://www.addeigloriam.org/creeds/bible-creed.htm
-
-### Reformed Pub-ish
-
- - [x] WCF
- - [x] WLC
- - [x] WSC
- - [x] First Catechism
- - [x] Apostles' Creed
- - [x] Nicene Creed
- - [x] Chalcedonian Definition
- - [x] Athenasian Creed
- - [x] Belgic Confession
- - [x] Heidelberg Catechism
- - [x] Cannons of Dort
- - [x] London Baptist Confession
 
 ### Reformed-ish Ones
 
@@ -137,7 +116,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [ ] GENEVAN STUDENTS' CONFESSION (1559)
  - [ ] CONFESSION FOR THE CHURCH AT PARIS (1557)
  - [ ] CONFESSION FOR THE FRENCH CHURCHES, TO BE PRESENTED TO THE EMPEROR (1562)
- - [ ] THE FRENCH CONFESSION (1559)
+ - [x] THE FRENCH CONFESSION (1559)
  - [x] THE BELGIC CONFESSION (1561)
  - [ ] CONFESSION OF THE ENGLISH CONGREGATION AT GENEVA (1558)
  - [x] THE SCOTCH CONFESSION (1560)
@@ -162,11 +141,9 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [ ] Matthew Henry
    - [ ] A Scripture Catechism, in the Method of the Assemblies
    - [ ] A Plain Catechism for Children
-   - [ ] A Short Catechism about the Lord's Supper
-   - [ ] A Paraphrase on the Lord's Prayer, in Scripture Expressions
  - [x] Charles Spurgeon
    - [x] A Puritan Catechism with Proofs
- - [ ] Augsburg Confession of 1530
+ - [x] Augsburg Confession of 1530
  - [x] Westminster Confession of 1646
  - [x] Baptist Confession of 1689
 
@@ -189,13 +166,13 @@ source: https://www.blueletterbible.org/study/ccc/index.cfm
    - [x] Keach's Catechism
    - [ ] Abstract of Principles of 1858
 
- - [ ] Ancient church
+ - [x] Ancient church
   - [x] The Apostles' Creed
   - [x] The Nicene Creed
   - [x] Athanasian Creed
   - [x] Chalcedonian Definition
 
- - [ ] The Second Helvetic Confession
+ - [x] The Second Helvetic Confession
  - [ ] Savoy Declaration of Faith
  - [ ] Catechism for Young Children
 
@@ -206,11 +183,11 @@ source: https://reformedstandards.com
  - [x] Sixty-Seven Articles of Ulrich Zwingli (1523)
  - [ ] Tetrapolitan Confession (1530)
  - [ ] First Helvetic Confession (1536)
- - [ ] French Confession of Faith (1559)
+ - [x] [French Confession of Faith (1559)](https://www.ccel.org/ccel/schaff/creeds3.iv.vii.html)
  - [x] Scots Confession (1560)
  - [x] Belgic Confession of Faith (1561)
  - [x] Heidelberg Catechism (1563)
- - [ ] Second Helvetic Confession (1566)
+ - [x] Second Helvetic Confession (1566)
  - [x] Canons of the Synod of Dordt (1619)
  - [x] Westminster Confession & Catechisms (1643)
 
