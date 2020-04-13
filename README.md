@@ -20,7 +20,6 @@ If there are better (more descriptive) words, let us know!
 - [x] Chalcedonian Definition
 - [x] Apostles' Creed
 - [x] Zwingli's 67 Articles
-- [x] Ausburg Confession
 - [x] French Confession of Faith
 - [x] Scots Confession
 - [x] Belgic Confession of Faith
@@ -97,7 +96,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [ ] FIRST HELVETIC OR SECOND BASLE CONFESSION (1536)
  - [ ] THE HUNGARIAN CONFESSION (1557-1558)
  - [ ] SECOND HELVETIC CONFESSION (1562, 1566)
- - [ ] HEIDELBERG CATECHISM (1563)
+ - [x] HEIDELBERG CATECHISM (1563)
  - [ ] ANHALT REPETITION (1581)
  - [ ] BRANDENBURG CONFESSIONS
    - [ ] The Confession of Sigismund (1614)
@@ -135,7 +134,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [x] The Nicene Creed
  - [x] Heidelberg Catechism of 1563
  - [ ] Matthew Henry
-   - [ ] A Scripture Catechism, in the Method of the Assemblies
+   - [ ] [A Scripture Catechism, in the Method of the Assemblies](http://www.shortercatechism.com)
    - [ ] A Plain Catechism for Children
  - [x] Charles Spurgeon
    - [x] A Puritan Catechism with Proofs

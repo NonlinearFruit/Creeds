@@ -112,13 +112,13 @@ public class MainDatabase {
             IntentClass = CanonActivity.class;
             JsonFileId = R.raw.french_confession_of_faith;
         }});
-        add(new MainMenuItem(){{
-            CreedTitle = "Augsburg Confession";
-            CreedYear = 1530;
-            CreedOrigin = "";
-            IntentClass = ConfessionActivity.class;
-            JsonFileId = R.raw.augsburg_confession;
-        }});
+        //add(new MainMenuItem(){{
+        //    CreedTitle = "Augsburg Confession";
+        //    CreedYear = 1530;
+        //    CreedOrigin = "";
+        //    IntentClass = ConfessionActivity.class;
+        //    JsonFileId = R.raw.augsburg_confession;
+        //}});
         add(new MainMenuItem(){{
             CreedTitle = "Zwingli's 67 Articles";
             CreedYear = 1523;
