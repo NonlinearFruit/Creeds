@@ -3,7 +3,7 @@ package com.nonlinearfruit.creeds.catechism.models;
 import java.util.List;
 
 public class CatechismQuestion {
-    public Integer Number;
+    public String Number;
     public String Question;
     public String Answer;
     public String AnswerWithProofs;

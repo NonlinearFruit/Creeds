@@ -5,6 +5,7 @@ import com.nonlinearfruit.creeds.canon.CanonActivity;
 import com.nonlinearfruit.creeds.catechism.CatechismActivity;
 import com.nonlinearfruit.creeds.creed.CreedActivity;
 import com.nonlinearfruit.creeds.creed.CreedLookup;
+import com.nonlinearfruit.creeds.henryscatechism.HenrysCatechismActivity;
 import com.nonlinearfruit.creeds.main.models.MainMenuItem;
 import com.nonlinearfruit.creeds.confession.ConfessionActivity;
 
@@ -34,6 +35,13 @@ public class MainDatabase {
             CreedOrigin = "";
             IntentClass = CatechismActivity.class;
             JsonFileId = R.raw.puritan_catechism;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Matthew Henry's Scripture Catechism";
+            CreedYear = 1714;
+            CreedOrigin = "";
+            IntentClass = HenrysCatechismActivity.class;
+            JsonFileId = R.raw.matthew_henrys_scripture_catechism;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "London Baptist 1689 Confession of Faith";

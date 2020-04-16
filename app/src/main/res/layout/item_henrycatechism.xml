@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/PadFad" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:id="@+id/item_henrycatechism_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q#: "
+            android:textAppearance="@style/MajorNumber" />
+
+        <TextView
+            android:id="@+id/item_henrycatechism_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is man's chief end?"
+            android:textAppearance="@style/MajorHeader" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_henrycatechism_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To glorify God and enjoy Him forever"
+        android:textAppearance="@style/MinorHeader" />
+
+    <LinearLayout
+        android:id="@+id/item_henrycatechism_catechism_list"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+</LinearLayout>

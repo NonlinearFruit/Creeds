@@ -1,7 +1,6 @@
 package com.nonlinearfruit.creeds.catechism;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -52,9 +51,9 @@ public class CatechismAdapter extends ArrayAdapter<CatechismQuestion> implements
             view = inflater.inflate(R.layout.item_catechism, null);
         }
 
-        ((TextView) view.findViewById(R.id.questionNumber)).setText("Q"+p.Number+": ");
-        ((TextView) view.findViewById(R.id.question)).setText(p.Question);
-        ((TextView) view.findViewById(R.id.answer)).setText(p.Answer);
+        ((TextView) view.findViewById(R.id.item_catechism_number)).setText("Q"+p.Number+": ");
+        ((TextView) view.findViewById(R.id.item_catechism_question)).setText(p.Question);
+        ((TextView) view.findViewById(R.id.item_catechism_answer)).setText(p.Answer);
 
         int color;
         if (position % 2 == 0)

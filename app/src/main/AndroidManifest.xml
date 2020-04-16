@@ -24,6 +24,8 @@
             android:label="Confession"></activity>
         <activity android:name=".canon.CanonActivity"
             android:label="Canon"></activity>
+        <activity android:name=".henryscatechism.HenrysCatechismActivity"
+            android:label="Henry's Catechism"></activity>
     </application>
 
 </manifest>

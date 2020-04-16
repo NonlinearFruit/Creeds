@@ -21,17 +21,17 @@ import java.util.List;
 public class CatechismDatabase {
     private List<CatechismQuestion> catechism = new ArrayList<CatechismQuestion>(){{
         add(new CatechismQuestion(){{
-            Number = 1;
+            Number = "1";
             Question = "Who made you?";
             Answer = "God made me";
         }});
         add(new CatechismQuestion(){{
-            Number = 2;
+            Number = "2";
             Question = "What else did God make?";
             Answer = "God made all things";
         }});
         add(new CatechismQuestion(){{
-            Number = 3;
+            Number = "3";
             Question = "Why did God make you and all things";
             Answer = "For His own glory";
         }});
