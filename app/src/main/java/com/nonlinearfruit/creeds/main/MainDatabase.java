@@ -128,6 +128,13 @@ public class MainDatabase {
         //    JsonFileId = R.raw.augsburg_confession;
         //}});
         add(new MainMenuItem(){{
+            CreedTitle = "Tetrapolitan Confession";
+            CreedYear = 1530;
+            CreedOrigin = "";
+            IntentClass = CanonActivity.class;
+            JsonFileId = R.raw.tetrapolitan_confession;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "Zwingli's 67 Articles";
             CreedYear = 1523;
             CreedOrigin = "";

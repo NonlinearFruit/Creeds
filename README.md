@@ -20,6 +20,7 @@ If there are better (more descriptive) words, let us know!
 - [x] Chalcedonian Definition
 - [x] Apostles' Creed
 - [x] Zwingli's 67 Articles
+- [x] Tetrapolitan Confession
 - [x] French Confession of Faith
 - [x] Scots Confession
 - [x] Belgic Confession of Faith
@@ -30,6 +31,7 @@ If there are better (more descriptive) words, let us know!
 - [x] WSC
 - [x] Keach's Catechism
 - [x] London Baptist 1689
+- [x] Matthew Henry's Scripture Catechism
 - [x] Puritan Catechism
 - [x] Chicago Statement on Biblical Inerrancy
 - [x] First Catechism
@@ -89,7 +91,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
 
  - [ ] ZWINGLI'S FIDEI RATIO (1530)
  - [ ] ZWINGLI'S EXPOSITIO CHR. FIDEI (1531)
- - [ ] THE TETRAPOLITAN CONFESSION (1530)
+ - [x] THE TETRAPOLITAN CONFESSION (1530)
  - [ ] FIRST BOHEMIAN CONFESSION (1535)
  - [ ] SECOND BOHEMIAN CONFESSION (1575)
  - [ ] FIRST BASLE OR MÜHLHAUSEN CONFESSION (1534)
@@ -134,7 +136,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [x] The Nicene Creed
  - [x] Heidelberg Catechism of 1563
  - [ ] Matthew Henry
-   - [ ] [A Scripture Catechism, in the Method of the Assemblies](http://www.shortercatechism.com)
+   - [x] [A Scripture Catechism, in the Method of the Assemblies](http://www.shortercatechism.com)
    - [ ] A Plain Catechism for Children
  - [x] Charles Spurgeon
    - [x] A Puritan Catechism with Proofs
@@ -176,7 +178,7 @@ source: https://reformedstandards.com
 ## OPC - John Muether
 
  - [x] Sixty-Seven Articles of Ulrich Zwingli (1523)
- - [ ] Tetrapolitan Confession (1530)
+ - [x] [Tetrapolitan Confession (1530)](https://books.google.co.uk/books?id=8PdOggp1rN4C&pg=PA11&dq=REformed+Confessions&hl=en#v=onepage&q=Tetrapolitan Confession&f=false)
  - [ ] First Helvetic Confession (1536)
  - [x] [French Confession of Faith (1559)](https://www.ccel.org/ccel/schaff/creeds3.iv.vii.html)
  - [x] Scots Confession (1560)
