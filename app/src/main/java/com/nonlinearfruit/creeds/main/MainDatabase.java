@@ -170,6 +170,20 @@ public class MainDatabase {
             JsonFileId = CreedLookup.NiceneCreed.Id;
         }});
         add(new MainMenuItem(){{
+            CreedTitle = "The Christ Hymn of Philippians";
+            CreedYear = 60;
+            CreedOrigin = "Philippians 2:6-11";
+            IntentClass = CreedActivity.class;
+            JsonFileId = CreedLookup.ChristHymnOfPhilippians.Id;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "The Christ Hymn of Colossians";
+            CreedYear = 60;
+            CreedOrigin = "Colossians 1:15-20";
+            IntentClass = CreedActivity.class;
+            JsonFileId = CreedLookup.ChristHymnOfColossians.Id;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "Confession of Peter";
             CreedYear = 30;
             CreedOrigin = "Matthew 16:16";

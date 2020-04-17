@@ -3,10 +3,12 @@ package com.nonlinearfruit.creeds.creed;
 public enum CreedLookup {
     ShemaYisrael(0),
     ConfessionOfPeter(1),
-    ApostlesCreed(2),
-    NiceneCreed(3),
-    ChalcedonianDefinition(4),
-    AthanasianCreed(5);
+    ChristHymnOfPhilippians(2),
+    ChristHymnOfColossians(3),
+    ApostlesCreed(4),
+    NiceneCreed(5),
+    ChalcedonianDefinition(6),
+    AthanasianCreed(7);
 
     public static CreedLookup get(int id) {
         for (CreedLookup lookup : CreedLookup.values())

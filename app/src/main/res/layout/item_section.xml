@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/PadFad">
 
         <TextView
             android:id="@+id/item_section_number"
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingRight="4dp"
+            android:paddingRight="3dp"
             android:text="33.33"
             android:textAlignment="viewEnd"
             android:textAppearance="@style/MinorNumber" />
@@ -23,6 +20,5 @@
             android:layout_height="wrap_content"
             android:text="Section textSection textSection textSection textSection textSection textSection textSection text"
             android:textAppearance="@style/PlainText" />
-    </LinearLayout>
 
 </LinearLayout>

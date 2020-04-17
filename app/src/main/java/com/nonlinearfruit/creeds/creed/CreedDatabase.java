@@ -3,6 +3,8 @@ package com.nonlinearfruit.creeds.creed;
 public class CreedDatabase {
     private String shema_yisrael = "Hear, O Israel: The LORD our God, the LORD is one.";
     private String confession_of_peter = "Simon Peter replied, \"You are the Christ, the Son of the living God.\"";
+    private String christ_hymn_of_philippians = "Who, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, by taking the form of a servant, being born in the likeness of men. And being found in human form, he humbled himself by becoming obedient to the point of death, even death on a cross. Therefore God has highly exalted him and bestowed on him the name that is above every name, so that at the name of Jesus every knee should bow, in heaven and on earth and under the earth, and every tongue confess that Jesus Christ is Lord, to the glory of God the Father.";
+    private String christ_hymn_of_colossians = "He is the image of the invisible God, the firstborn of all creation. For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things were created through him and for him. And he is before all things, and in him all things hold together. And he is the head of the body, the church. He is the beginning, the firstborn from the dead, that in everything he might be preeminent. For in him all the fullness of God was pleased to dwell, and through him to reconcile to himself all things, whether on earth or in heaven, making peace by the blood of his cross.";
     private String apostles_creed =
             "I believe in God, the Father almighty, creator of heaven and earth.\n" +
             "\n" +
@@ -32,6 +34,10 @@ public class CreedDatabase {
                 return shema_yisrael;
             case ConfessionOfPeter:
                 return confession_of_peter;
+            case ChristHymnOfColossians:
+                return christ_hymn_of_colossians;
+            case ChristHymnOfPhilippians:
+                return christ_hymn_of_philippians;
             case ApostlesCreed:
                 return apostles_creed;
             case NiceneCreed:

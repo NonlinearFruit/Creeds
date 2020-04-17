@@ -1,3 +1,7 @@
+# Keys
+*.pepk
+*.jks
+
 # Rider
 .idea/
 
