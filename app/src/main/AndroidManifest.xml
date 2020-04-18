@@ -9,23 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".main.MainActivity">
+
+        <activity android:name=".splash.SplashActivity" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".main.MainActivity"></activity>
+
         <activity android:name=".catechism.CatechismActivity"
             android:label="Catechism"></activity>
+
         <activity android:name=".creed.CreedActivity"
             android:label="Creed"></activity>
+
         <activity android:name=".confession.ConfessionActivity"
             android:label="Confession"></activity>
+
         <activity android:name=".canon.CanonActivity"
             android:label="Canon"></activity>
+
         <activity android:name=".henryscatechism.HenrysCatechismActivity"
             android:label="Henry's Catechism"></activity>
+
     </application>
 
 </manifest>
