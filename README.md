@@ -30,9 +30,9 @@ If there are better (more descriptive) words, let us know!
 - [x] Belgic Confession of Faith
 - [x] Heidelberg Catechism
 - [x] Canons of Dort
-- [x] WCF
-- [x] WLC
-- [x] WSC
+- [x] Westminster Confession of Faith
+- [x] Westminster Larger Catechism
+- [x] Westminster Shorter Catechism
 - [x] Keach's Catechism
 - [x] London Baptist 1689
 - [x] Matthew Henry's Scripture Catechism
@@ -206,3 +206,88 @@ source: https://reformedstandards.com
  - [x] Westminster Confession & Catechisms (1643)
 
 source: https://opc.org/os.html?article_id=595&issue_id=121
+
+## Monergism - Reformed Creeds
+
+### THE ECUMENICAL CREEDS (IN .PDF FORMAT)
+ - [x] Apostle's Creed c.200
+ - [x] Nicene Creed 325
+ - [x] Athanasian Creed c.500
+ - [x] Chalcedonian Creed 451
+ - [ ] Council of Orange - 529
+
+### THE CREEDS OF THE REFORMED CHURCH (IN .PDF FORMAT)
+SWISS
+ - [x] 67 Sixty Seven Articles 1523
+ - [ ] The Ten Theses of Berne 1526
+ - [ ] The First Confession of Basle. A.D. 1534
+ - [ ] Helvetic Formulation 1675
+ - [x] The Second Helvetic Confessions 1562
+ - [ ] The Catechism of Geneva. A.D. 1536 and 1541
+ - [ ] The Consensus of Tigurinus Zurich. A.D. 1549
+ - [ ] The Helvetic Consensus Formula. A.D. 1675
+
+FRENCH
+ - [x] Gallican/French Confession of Faith 1559
+ - [x] The Belgic Confession. A.D. 1561
+ - [x] Canons of Dort 1618-1619
+
+GERMAN
+ - [x] The Tetrapolitan, Strasburg or the Swabian Confession 1530
+ - [x] Heidelberg Catechism 1563
+ - [ ] The Waldensian Catechism 1488
+ - [ ] The Bohemian Confession 1521, 1535
+
+ENGLAND
+ - [ ] The Ten Articles 1536
+ - [ ] The Six Articles 1539
+ - [ ] The Thirteen Articles 1538
+ - [ ] 39 Thirty-Nine Articles of Religion 1571
+ - [ ] Book of Common Prayer 1549
+ - [ ] The Lambeth Articles of 1595
+ - [ ] The Irish Articles 1615
+
+THE CREEDS OF THE LUTHERAN CHURCH (IN .PDF FORMAT)
+ - [ ] 95 Ninety-Five Theses
+ - [ ] Augsburg Confession 1530
+ - [ ] Luther’s Large Catechism 1526
+ - [ ] Luther’s Small Catechism 1529
+ - [ ] Smalcald Articles 1537
+ - [ ] Formula of Concord
+ - [ ] Book of Concord
+
+THE CREEDS OF THE PRESBYTERIAN CHURCH (IN .PDF FORMAT)
+ - [x] The Scotch Confession of Faith 1560
+ - [ ] The National Covenant or Second Scotch Confession 1581 and 1638
+ - [x] The Westminster Confession of Faith 1643-1649
+ - [x] The Westminster Larger Catechism 1643-1649
+ - [x] The Westminster Shorter Catechism 1643-1649
+ - [ ] Confession of 1967
+ - [ ] Lanark Declaration 1682
+ - [ ] The Book of Church Order 2013 – 2015
+
+### Baptist
+
+ - [ ] Schleitheim Confession (Annabaptist) 1527
+ - [ ] Dordrecht (Mennonite) Confession of Faith 1632
+ - [x] London Baptist of Faith 1689
+ - [ ] New Hampshire Confession of Faith (Baptist) 1833
+ - [x] Abstract of Principles (Baptist) 1858
+ - [ ] The Baptist Faith and Message 2000
+
+
+ - [ ] Savoy Declaration 1658 (Congregational)
+
+
+### OTHER CREEDS OF THE MODERN CHURCH (.IN .PDF FORMAT)
+
+ - [ ] Lausanne Covenant - Int'l Congress on World Evangelism 1974
+ - [x] Chicago Statement on Biblical Inerrancy 1978
+ - [ ] Chicago Statement on Biblical Hermeneutics 1982
+ - [ ] Chicago Statement on Biblical Application 1986
+ - [ ] Danver's Statement on role of men and women 1987
+ - [ ] Cambridge Declaration 1996
+ - [ ] Lausanne Covenant II - Manila Manifesto 1989
+ - [ ] The Gospel of Jesus Christ - An Evangelical Celebration 1999
+
+source: https://www.monergism.com/blog/reformed-creeds-and-supplementary-resources-ebooks
