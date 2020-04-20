@@ -30,6 +30,13 @@ public class MainDatabase {
             JsonFileId = R.raw.chicago_statement_on_biblical_inerrancy;
         }});
         add(new MainMenuItem(){{
+            CreedTitle = "Abstract of Principles";
+            CreedYear = 1858;
+            CreedOrigin = "";
+            IntentClass = CanonActivity.class;
+            JsonFileId = R.raw.abstract_of_principles;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "Puritan Catechism";
             CreedYear = 1855;
             CreedOrigin = "";
@@ -120,13 +127,6 @@ public class MainDatabase {
             IntentClass = CanonActivity.class;
             JsonFileId = R.raw.french_confession_of_faith;
         }});
-        //add(new MainMenuItem(){{
-        //    CreedTitle = "Augsburg Confession";
-        //    CreedYear = 1530;
-        //    CreedOrigin = "";
-        //    IntentClass = ConfessionActivity.class;
-        //    JsonFileId = R.raw.augsburg_confession;
-        //}});
         add(new MainMenuItem(){{
             CreedTitle = "Tetrapolitan Confession";
             CreedYear = 1530;

@@ -37,6 +37,7 @@ If there are better (more descriptive) words, let us know!
 - [x] London Baptist 1689
 - [x] Matthew Henry's Scripture Catechism
 - [x] Puritan Catechism
+- [x] Abstract of Principles
 - [x] Chicago Statement on Biblical Inerrancy
 - [x] First Catechism
 
@@ -174,10 +175,10 @@ source: https://www.blueletterbible.org/study/ccc/index.cfm
    - [x] Heidelberg Catechism
    - [x] Canons of Dort
 
- - [ ] London Baptist
+ - [x] London Baptist
    - [x] 1689 London Baptist Confession of Faith
    - [x] Keach's Catechism
-   - [ ] Abstract of Principles of 1858
+   - [x] Abstract of Principles of 1858
 
  - [x] Ancient church
   - [x] The Apostles' Creed
