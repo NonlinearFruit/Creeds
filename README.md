@@ -22,7 +22,9 @@ If there are better (more descriptive) words, let us know!
 - [x] Irenaeus' Rule of Faith
 - [x] Nicene Creed
 - [x] Chalcedonian Definition
+- [x] Council of Orange (529)
 - [x] Apostles' Creed
+- [x] Athanasian Creed
 - [x] Zwingli's 67 Articles
 - [x] Tetrapolitan Confession
 - [x] French Confession of Faith
@@ -214,7 +216,7 @@ source: https://opc.org/os.html?article_id=595&issue_id=121
  - [x] Nicene Creed 325
  - [x] Athanasian Creed c.500
  - [x] Chalcedonian Creed 451
- - [ ] Council of Orange - 529
+ - [x] Council of Orange - 529
 
 ### THE CREEDS OF THE REFORMED CHURCH (IN .PDF FORMAT)
 SWISS
@@ -274,7 +276,6 @@ THE CREEDS OF THE PRESBYTERIAN CHURCH (IN .PDF FORMAT)
  - [ ] New Hampshire Confession of Faith (Baptist) 1833
  - [x] Abstract of Principles (Baptist) 1858
  - [ ] The Baptist Faith and Message 2000
-
 
  - [ ] Savoy Declaration 1658 (Congregational)
 

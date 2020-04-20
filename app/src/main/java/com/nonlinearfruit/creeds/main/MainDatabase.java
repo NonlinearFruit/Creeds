@@ -156,6 +156,13 @@ public class MainDatabase {
             JsonFileId = CreedLookup.ApostlesCreed.Id;
         }});
         add(new MainMenuItem(){{
+            CreedTitle = "Council of Orange";
+            CreedYear = 529;
+            CreedOrigin = "";
+            IntentClass = CanonActivity.class;
+            JsonFileId = R.raw.council_of_orange;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "Chalcedonian Definition";
             CreedYear = 451;
             CreedOrigin = "Adopted at the Council of Chalcedon in AD 451";
