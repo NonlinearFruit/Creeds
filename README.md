@@ -19,6 +19,7 @@ If there are better (more descriptive) words, let us know!
 - [x] Confession of Peter
 - [x] The Christ Hymn of Colossians
 - [x] The Christ Hymn of Philippians
+- [x] Irenaeus' Rule of Faith
 - [x] Nicene Creed
 - [x] Chalcedonian Definition
 - [x] Apostles' Creed
@@ -84,7 +85,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [ ] The Consensus of Geneva (1552)
  - [x] First Scotch Confession (1560)
  - [ ] Craig's Catechism (1581)
- - [ ] Second Helvetic Confession (1586)
+ - [x] Second Helvetic Confession (1586)
  - [ ] Gallican Confession (1559)
  - [x] Belgic Confession (1561)
  - [x] Heidelberg Catechism (1563)

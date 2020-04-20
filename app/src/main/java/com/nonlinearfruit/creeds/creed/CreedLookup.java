@@ -5,10 +5,11 @@ public enum CreedLookup {
     ConfessionOfPeter(1),
     ChristHymnOfPhilippians(2),
     ChristHymnOfColossians(3),
-    ApostlesCreed(4),
-    NiceneCreed(5),
-    ChalcedonianDefinition(6),
-    AthanasianCreed(7);
+    IrenaeusRuleOfFaith(4),
+    ApostlesCreed(5),
+    NiceneCreed(6),
+    ChalcedonianDefinition(7),
+    AthanasianCreed(8);
 
     public static CreedLookup get(int id) {
         for (CreedLookup lookup : CreedLookup.values())

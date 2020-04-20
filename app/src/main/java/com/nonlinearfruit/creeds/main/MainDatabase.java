@@ -15,13 +15,13 @@ import java.util.List;
 public class MainDatabase {
 
     private List<MainMenuItem> items = new ArrayList<MainMenuItem>(){{
-        //add(new MainMenuItem(){{
-        //    CreedTitle = "First Catechism";
-        //    CreedYear = 1996;
-        //    CreedOrigin = "Copyright 2003 - Great Commission Publications, Inc";
-        //    IntentClass = CatechismActivity.class;
-        //    JsonFileId = R.raw.first_catechism;
-        //}});
+        add(new MainMenuItem(){{
+            CreedTitle = "First Catechism";
+            CreedYear = 1996;
+            CreedOrigin = "Copyright 2003 - Great Commission Publications, Inc";
+            IntentClass = CatechismActivity.class;
+            JsonFileId = R.raw.first_catechism;
+        }});
         add(new MainMenuItem(){{
             CreedTitle = "Chicago Statement on Biblical Inerrancy";
             CreedYear = 1978;
@@ -168,6 +168,13 @@ public class MainDatabase {
             CreedOrigin = "Adopted at the Second Ecumenical Council held in Constantinople in 381 as a modification of the original Nicene Creed of 325";
             IntentClass = CreedActivity.class;
             JsonFileId = CreedLookup.NiceneCreed.Id;
+        }});
+        add(new MainMenuItem(){{
+            CreedTitle = "Irenaeus' Rule of Faith";
+            CreedYear = 180;
+            CreedOrigin = "Irenaeus, Adversus Haereses";
+            IntentClass = CreedActivity.class;
+            JsonFileId = CreedLookup.IrenaeusRuleOfFaith.Id;
         }});
         add(new MainMenuItem(){{
             CreedTitle = "The Christ Hymn of Philippians";
