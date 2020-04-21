@@ -135,6 +135,13 @@ public class MainDatabase {
             JsonFileId = R.raw.tetrapolitan_confession;
         }});
         add(new MainMenuItem(){{
+            CreedTitle = "Ten Theses of Berne";
+            CreedYear = 1528;
+            CreedOrigin = "";
+            IntentClass = CanonActivity.class;
+            JsonFileId = R.raw.zwinglis_67_articles;
+        }});
+        add(new MainMenuItem(){{
             CreedTitle = "Zwingli's 67 Articles";
             CreedYear = 1523;
             CreedOrigin = "";

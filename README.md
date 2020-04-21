@@ -25,8 +25,9 @@ If there are better (more descriptive) words, let us know!
 - [x] Council of Orange (529)
 - [x] Apostles' Creed
 - [x] Athanasian Creed
-- [x] Zwingli's 67 Articles
-- [x] Tetrapolitan Confession
+- [x] Zwingli's 67 Articles (1523)
+- [x] Ten Theses of Berne (1528)
+- [x] Tetrapolitan Confession (1530)
 - [x] French Confession of Faith
 - [x] Scots Confession
 - [x] Belgic Confession of Faith
@@ -83,7 +84,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
 
  - [x] The Sixty-seven Articles of Ulrigh Zwingli (1523)
  - [ ] The Evangelical Counsel of Ansbach (1524)
- - [ ] Ten Conclusions of Berne (1528)
+ - [x] Ten Conclusions of Berne (1528)
  - [ ] First Helvetic Confession (1536)
  - [ ] The Consensus of Geneva (1552)
  - [x] First Scotch Confession (1560)
@@ -221,7 +222,7 @@ source: https://opc.org/os.html?article_id=595&issue_id=121
 ### THE CREEDS OF THE REFORMED CHURCH (IN .PDF FORMAT)
 SWISS
  - [x] 67 Sixty Seven Articles 1523
- - [ ] The Ten Theses of Berne 1526
+ - [x] The Ten Theses of Berne 1526
  - [ ] The First Confession of Basle. A.D. 1534
  - [ ] Helvetic Formulation 1675
  - [x] The Second Helvetic Confessions 1562
