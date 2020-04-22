@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <SwitchPreference
+        android:title="Creed Order"
+        android:key="order"
+        android:defaultValue="true"
+        android:summaryOn="Chronological"
+        android:summaryOff="Alphabetical" />
+
+    <MultiSelectListPreference
+        android:title="Creeds To Include"
+        android:key="creeds"
+        android:entries="@array/empty_array"
+        android:entryValues="@array/empty_array"/>
+
+</PreferenceScreen>

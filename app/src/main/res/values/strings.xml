@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Creeds</string>
+    <string-array name="empty_array"/>
 </resources>
