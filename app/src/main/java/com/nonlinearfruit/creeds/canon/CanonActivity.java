@@ -1,5 +1,8 @@
 package com.nonlinearfruit.creeds.canon;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -23,6 +26,7 @@ public class CanonActivity extends AppCompatActivity implements SearchView.OnQue
     private SearchView searchView;
     private ListView listView;
     private CanonAdapter adapter;
+    private ClipboardManager clipboard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +50,7 @@ public class CanonActivity extends AppCompatActivity implements SearchView.OnQue
         searchView = findViewById(R.id.search_view);
         listView = findViewById(R.id.list_view);
         adapter = new CanonAdapter(data,this);
+        clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 
         setupListView();
         setupSearchView();
@@ -54,11 +59,14 @@ public class CanonActivity extends AppCompatActivity implements SearchView.OnQue
     private void setupListView() {
         listView.setAdapter(adapter);
         listView.setTextFilterEnabled(false);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 Article article = (Article) parent.getAdapter().getItem(position);
-                Toast.makeText(view.getContext(),article.Title+" clicked!",Toast.LENGTH_LONG).show();
+                ClipData clip = ClipData.newPlainText("Creeds", article.Title + "\n\n" + article.Content);
+                clipboard.setPrimaryClip(clip);
+                Toast.makeText(view.getContext(),article.Title+" copied!",Toast.LENGTH_LONG).show();
+                return false;
             }
         });
     }

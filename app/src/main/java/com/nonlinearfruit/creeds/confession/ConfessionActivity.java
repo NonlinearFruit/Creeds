@@ -1,5 +1,7 @@
 package com.nonlinearfruit.creeds.confession;
 
+import android.content.ClipboardManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -46,7 +48,7 @@ public class ConfessionActivity extends AppCompatActivity implements SearchView.
             data = db.getDefaultConfession();
         }
 
-        return new ChapterAdapter(data,this);
+        return new ChapterAdapter(data, this, (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE));
     }
 
     private void setupListView(ArrayAdapter adapter) {

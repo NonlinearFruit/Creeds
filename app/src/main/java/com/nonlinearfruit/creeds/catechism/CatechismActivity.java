@@ -26,6 +26,7 @@ public class CatechismActivity extends AppCompatActivity implements SearchView.O
     private SearchView searchView;
     private ListView listView;
     private CatechismAdapter adapter;
+    private ClipboardManager clipboard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +50,7 @@ public class CatechismActivity extends AppCompatActivity implements SearchView.O
         searchView = findViewById(R.id.search_view);
         listView = findViewById(R.id.list_view);
         adapter = new CatechismAdapter(data,this);
+        clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 
         setupListView();
         setupSearchView();
@@ -57,14 +59,14 @@ public class CatechismActivity extends AppCompatActivity implements SearchView.O
     private void setupListView() {
         listView.setAdapter(adapter);
         listView.setTextFilterEnabled(false);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 CatechismQuestion qna = (CatechismQuestion) parent.getAdapter().getItem(position);
-                Toast.makeText(view.getContext(),"Q"+qna.Number+" copied!",Toast.LENGTH_LONG).show();
-                ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-                ClipData clip = ClipData.newPlainText("qna", "Q"+qna.Number+": "+qna.Question+"\nA: "+qna.Answer);
+                ClipData clip = ClipData.newPlainText("Creeds", "Q"+qna.Number+": "+qna.Question+"\n"+qna.Answer);
                 clipboard.setPrimaryClip(clip);
+                Toast.makeText(view.getContext(),"Q"+qna.Number+" copied!",Toast.LENGTH_LONG).show();
+                return false;
             }
         });
     }

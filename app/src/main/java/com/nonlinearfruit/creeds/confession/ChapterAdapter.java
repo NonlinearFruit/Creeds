@@ -1,5 +1,7 @@
 package com.nonlinearfruit.creeds.confession;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,12 +26,14 @@ public class ChapterAdapter extends ArrayAdapter<Chapter> implements Filterable 
     private Context context;
     private Filter filter;
     private List<Chapter> originalChapters;
+    private ClipboardManager clipboard;
 
-    public ChapterAdapter(List<Chapter> catechismQnAs, Context ctx) {
+    public ChapterAdapter(List<Chapter> catechismQnAs, Context ctx, ClipboardManager clipboard) {
         super(ctx, 0, catechismQnAs);
         this.chapters = catechismQnAs;
         this.context = ctx;
         this.originalChapters = catechismQnAs;
+        this.clipboard = clipboard;
     }
 
     public int getCount() {
@@ -67,10 +71,14 @@ public class ChapterAdapter extends ArrayAdapter<Chapter> implements Filterable 
         ((TextView) sectionView.findViewById(R.id.item_section_content)).setText(section.Content);
         ((TextView) sectionView.findViewById(R.id.item_section_number)).setText(chapter.Chapter+"."+section.Section);
         sectionView.setClickable(true);
-        sectionView.setOnClickListener(new View.OnClickListener() {
+        sectionView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
-            public void onClick(View view) {
-                Toast.makeText(view.getContext(),"Clicked "+chapter.Chapter+"."+section.Section,Toast.LENGTH_LONG).show();
+            public boolean onLongClick(View v) {
+            String id = chapter.Chapter+"."+section.Section;
+                ClipData clip = ClipData.newPlainText("Creeds", id + "\n\n" + section.Content);
+                clipboard.setPrimaryClip(clip);
+                Toast.makeText(v.getContext(),id + " copied!",Toast.LENGTH_LONG).show();
+                return false;
             }
         });
         return sectionView;

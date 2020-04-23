@@ -45,7 +45,7 @@ public class HenrysCatechismActivity extends AppCompatActivity implements Search
             Log.e("CREEDS", "Loading json failed for "+title, exception);
             data = db.getDefaultCatechism();
         }
-        adapter = new HenrysCatechismAdapter(data,this);
+        adapter = new HenrysCatechismAdapter(data,this,(ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE));
 
         setupListView();
         setupSearchView();

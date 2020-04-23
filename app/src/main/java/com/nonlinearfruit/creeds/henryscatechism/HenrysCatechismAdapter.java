@@ -1,5 +1,7 @@
 package com.nonlinearfruit.creeds.henryscatechism;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,12 +13,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.core.content.ContextCompat;
-
 import com.nonlinearfruit.creeds.R;
 import com.nonlinearfruit.creeds.catechism.models.CatechismQuestion;
-import com.nonlinearfruit.creeds.confession.models.Chapter;
-import com.nonlinearfruit.creeds.confession.models.Section;
 import com.nonlinearfruit.creeds.henryscatechism.models.HenrysCatechismQuestion;
 
 import java.util.ArrayList;
@@ -28,12 +26,14 @@ public class HenrysCatechismAdapter extends ArrayAdapter<HenrysCatechismQuestion
     private Context context;
     private Filter filter;
     private List<HenrysCatechismQuestion> originalQnAs;
+    private ClipboardManager clipboard;
 
-    public HenrysCatechismAdapter(List<HenrysCatechismQuestion> catechismQnAs, Context ctx) {
+    public HenrysCatechismAdapter(List<HenrysCatechismQuestion> catechismQnAs, Context ctx, ClipboardManager clipboard) {
         super(ctx, 0, catechismQnAs);
         this.catechismQnAs = catechismQnAs;
         this.context = ctx;
         this.originalQnAs = catechismQnAs;
+        this.clipboard = clipboard;
     }
 
     public int getCount() {
@@ -73,10 +73,14 @@ public class HenrysCatechismAdapter extends ArrayAdapter<HenrysCatechismQuestion
         ((TextView) sectionView.findViewById(R.id.item_catechism_question)).setText(section.Question);
         ((TextView) sectionView.findViewById(R.id.item_catechism_answer)).setText(section.Answer);
         sectionView.setClickable(true);
-        sectionView.setOnClickListener(new View.OnClickListener() {
+        sectionView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
-            public void onClick(View view) {
-                Toast.makeText(view.getContext(),"Clicked "+chapter.Number+"."+section.Number,Toast.LENGTH_LONG).show();
+            public boolean onLongClick(View v) {
+                String id = chapter.Number+"."+section.Number;
+                ClipData clip = ClipData.newPlainText("Creeds", "Q"+id+": "+section.Question+"\n"+section.Answer);
+                clipboard.setPrimaryClip(clip);
+                Toast.makeText(v.getContext(),id + " copied!",Toast.LENGTH_LONG).show();
+                return false;
             }
         });
         return sectionView;
