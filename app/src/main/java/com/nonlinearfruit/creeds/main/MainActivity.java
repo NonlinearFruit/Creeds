@@ -1,15 +1,12 @@
 package com.nonlinearfruit.creeds.main;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.preference.Preference;
 import androidx.preference.PreferenceManager;
-import androidx.preference.SwitchPreference;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -38,8 +35,6 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        //preferences.edit().remove("creeds").commit();
         setContentView(R.layout.activity_list);
 
         setupListView();
@@ -53,7 +48,6 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         listener = new SharedPreferences.OnSharedPreferenceChangeListener() {
             @Override
             public void onSharedPreferenceChanged(SharedPreferences preference, String newValue) {
-                Log.d("Creeds", "Preference changed");
                 preferencesHaveChanged = true;
             }
         };
@@ -72,9 +66,9 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 MainMenuItem creed = (MainMenuItem) parent.getAdapter().getItem(position);
-                Intent intent = new Intent(MainActivity.this, creed.IntentClass);
-                intent.putExtra("JsonFileId", creed.JsonFileId);
-                intent.putExtra("Title", creed.CreedTitle);
+                Intent intent = new Intent(MainActivity.this, creed.getIntentClass());
+                intent.putExtra("JsonFileId", creed.getJsonFileId());
+                intent.putExtra("Title", creed.getCreedTitle());
                 view.getContext().startActivity(intent);
             }
         });
@@ -94,12 +88,12 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         Set<String> defaultCheckedCreeds = new HashSet<>();
         for (MainMenuItem item : items)
-           defaultCheckedCreeds.add(item.CreedTitle);
+           defaultCheckedCreeds.add(item.getCreedTitle());
         Set<String> checkedCreeds = preferences.getStringSet("creeds", defaultCheckedCreeds);
 
         List<MainMenuItem> filteredItems = new ArrayList<MainMenuItem>();
         for (MainMenuItem item: items)
-            if (checkedCreeds.contains(item.CreedTitle))
+            if (checkedCreeds.contains(item.getCreedTitle()))
                 filteredItems.add(item);
         return sortList(filteredItems);
     }
@@ -111,8 +105,8 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             @Override
             public int compare(MainMenuItem a, MainMenuItem b) {
                 return chronologicalOrder
-                        ? b.CreedYear.compareTo(a.CreedYear)
-                        : b.CreedTitle.compareTo(a.CreedTitle);
+                        ? b.getCreedYear() - a.getCreedYear()
+                        : b.getCreedTitle().compareTo(a.getCreedTitle());
             }
         });
         return items;
@@ -121,7 +115,6 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     @Override
     public void onResume() {
         super.onResume();
-        Log.d("Creeds", "onResume");
         if (!preferencesHaveChanged)
             return;
 

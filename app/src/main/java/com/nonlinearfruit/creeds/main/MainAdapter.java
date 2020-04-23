@@ -52,8 +52,8 @@ public class MainAdapter extends ArrayAdapter<MainMenuItem> implements Filterabl
             view = inflater.inflate(R.layout.item_mainmenu, null);
         }
 
-        ((TextView) view.findViewById(R.id.item_mainmenu_title)).setText(p.CreedTitle);
-        ((TextView) view.findViewById(R.id.item_mainmenu_year)).setText(p.CreedYear + " AD");
+        ((TextView) view.findViewById(R.id.item_mainmenu_title)).setText(p.getCreedTitle());
+        ((TextView) view.findViewById(R.id.item_mainmenu_year)).setText(p.getCreedYear() + " AD");
 
         int color;
         if (position % 2 == 0)
@@ -93,8 +93,8 @@ public class MainAdapter extends ArrayAdapter<MainMenuItem> implements Filterabl
         }
 
         private boolean isMatch(String query, MainMenuItem creed) {
-            return creed.CreedYear.toString().equals(query) ||
-                    creed.CreedTitle.contains(query);
+            return (creed.getCreedYear()+"").equals(query) ||
+                    creed.getCreedTitle().contains(query);
         }
 
         @Override

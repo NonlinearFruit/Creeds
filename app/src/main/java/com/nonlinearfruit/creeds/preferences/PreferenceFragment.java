@@ -35,7 +35,7 @@ public class PreferenceFragment extends PreferenceFragmentCompat {
         CharSequence[] entries = new CharSequence[items.size()];
         for(int i = 0; i < items.size(); i++) {
             MainMenuItem item = items.get(i);
-            entries[i] = item.CreedTitle;
+            entries[i] = item.getCreedTitle();
         }
         preferedCreeds.setEntries(entries);
         preferedCreeds.setEntryValues(entries);
