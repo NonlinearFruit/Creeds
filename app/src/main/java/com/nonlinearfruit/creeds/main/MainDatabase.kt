@@ -12,13 +12,13 @@ import com.nonlinearfruit.creeds.confession.ConfessionActivity
 class MainDatabase {
 
         val mainMenuItems: List<MainMenuItem> = listOf(
-                MainMenuItem(
-                        "First Catechism",
-                        1996,
-                        "Copyright 2003 - Great Commission Publications, Inc",
-                        CatechismActivity::class.java,
-                        R.raw.first_catechism
-                ),
+                //MainMenuItem(
+                        //"First Catechism",
+                        //1996,
+                        //"Copyright 2003 - Great Commission Publications, Inc",
+                        //CatechismActivity::class.java,
+                        //R.raw.first_catechism
+                //),
                 MainMenuItem(
                         "Chicago Statement on Biblical Inerrancy",
                         1978,
