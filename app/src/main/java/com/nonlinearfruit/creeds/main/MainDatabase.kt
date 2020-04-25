@@ -125,6 +125,13 @@ class MainDatabase {
                         R.raw.french_confession_of_faith
                 ),
                 MainMenuItem(
+                        "First Confession of Basel",
+                        1534,
+                        "",
+                        CanonActivity::class.java,
+                        R.raw.first_confession_of_basel
+                ),
+                MainMenuItem(
                         "Tetrapolitan Confession",
                         1530,
                         "",
@@ -144,6 +151,13 @@ class MainDatabase {
                         "",
                         CanonActivity::class.java,
                         R.raw.zwinglis_67_articles
+                ),
+                MainMenuItem(
+                        "Waldensian Confession",
+                        1120,
+                        "An ancient Confession of Faith of the Waldenses, copied out of certain manuscripts, bearing date Anno Dom. 1120",
+                        CanonActivity::class.java,
+                        R.raw.waldensian_confession
                 ),
                 MainMenuItem(
                         "Athanasian Creed",

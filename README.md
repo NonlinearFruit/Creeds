@@ -25,10 +25,12 @@ If there are better (more descriptive) words, let us know!
 - [x] Council of Orange (529)
 - [x] Apostles' Creed
 - [x] Athanasian Creed
+- [x] [Waldensian Confession of Faith (1120)](http://apostles-creed.org/wp-content/uploads/2014/07/waldensian_confession_1120.pdf)
 - [x] Zwingli's 67 Articles (1523)
 - [x] Ten Theses of Berne (1528)
 - [x] Tetrapolitan Confession (1530)
-- [x] French Confession of Faith
+- [x] [First Confession of Basel (1534)](http://apostles-creed.org/wp-content/uploads/2014/09/The-First-Confession-of-Basel-1534.pdf)
+- [x] French Confession of Faith (1559)
 - [x] Scots Confession
 - [x] Belgic Confession of Faith
 - [x] Heidelberg Catechism
@@ -39,10 +41,11 @@ If there are better (more descriptive) words, let us know!
 - [x] Keach's Catechism
 - [x] London Baptist 1689
 - [x] Matthew Henry's Scripture Catechism
-- [x] Puritan Catechism
+- [ ] [Catechism for Young Children (1840)](https://static1.squarespace.com/static/590be125ff7c502a07752a5b/t/5a84cca971c10b7697dda564/1518652588323/Engles%2C+Joseph+Patterson%2C+Catechism+for+Young+Children.pdf)
+- [x] Puritan Catechism (1855)
 - [x] Abstract of Principles
-- [x] Chicago Statement on Biblical Inerrancy
-- [x] First Catechism
+- [x] Chicago Statement on Biblical Inerrancy (1978)
+- [x] First Catechism (1996)
 
 ## Creeds To Do
 
@@ -90,7 +93,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [x] First Scotch Confession (1560)
  - [ ] Craig's Catechism (1581)
  - [x] Second Helvetic Confession (1586)
- - [ ] Gallican Confession (1559)
+ - [x] Gallican Confession (1559)
  - [x] Belgic Confession (1561)
  - [x] Heidelberg Catechism (1563)
  - [ ] The Hungarian Confession (1570)
@@ -114,7 +117,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [x] THE TETRAPOLITAN CONFESSION (1530)
  - [ ] FIRST BOHEMIAN CONFESSION (1535)
  - [ ] SECOND BOHEMIAN CONFESSION (1575)
- - [ ] FIRST BASLE OR MÜHLHAUSEN CONFESSION (1534)
+ - [x] FIRST BASLE OR MÜHLHAUSEN CONFESSION (1534)
  - [ ] FIRST HELVETIC OR SECOND BASLE CONFESSION (1536)
  - [ ] THE HUNGARIAN CONFESSION (1557-1558)
  - [x] SECOND HELVETIC CONFESSION (1562, 1566)
