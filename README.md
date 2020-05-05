@@ -14,39 +14,6 @@ If there are better (more descriptive) words, let us know!
  - Henry's Catechism: List of Questions/Answers (Text/Text) that each have a list of Questions/Answers (Text/Text)
 
 ## Included
-
-- [x] Shema Yisrael
-- [x] Confession of Peter
-- [x] The Christ Hymn of Colossians
-- [x] The Christ Hymn of Philippians
-- [x] Irenaeus' Rule of Faith
-- [x] Nicene Creed
-- [x] Chalcedonian Definition
-- [x] Council of Orange (529)
-- [x] Apostles' Creed
-- [x] Athanasian Creed
-- [x] [Waldensian Confession of Faith (1120)](http://apostles-creed.org/wp-content/uploads/2014/07/waldensian_confession_1120.pdf)
-- [x] Zwingli's 67 Articles (1523)
-- [x] Ten Theses of Berne (1528)
-- [x] Tetrapolitan Confession (1530)
-- [x] [First Confession of Basel (1534)](http://apostles-creed.org/wp-content/uploads/2014/09/The-First-Confession-of-Basel-1534.pdf)
-- [x] French Confession of Faith (1559)
-- [x] Scots Confession
-- [x] Belgic Confession of Faith
-- [x] Heidelberg Catechism
-- [x] Canons of Dort
-- [x] Westminster Confession of Faith
-- [x] Westminster Larger Catechism
-- [x] Westminster Shorter Catechism
-- [x] Keach's Catechism
-- [x] London Baptist 1689
-- [x] Matthew Henry's Scripture Catechism
-- [ ] [Catechism for Young Children (1840)](https://static1.squarespace.com/static/590be125ff7c502a07752a5b/t/5a84cca971c10b7697dda564/1518652588323/Engles%2C+Joseph+Patterson%2C+Catechism+for+Young+Children.pdf)
-- [x] Puritan Catechism (1855)
-- [x] Abstract of Principles
-- [x] Chicago Statement on Biblical Inerrancy (1978)
-- [x] First Catechism (1996)
-
 ## Creeds To Do
 
 ### Biblical Ones
@@ -55,6 +22,7 @@ If there are better (more descriptive) words, let us know!
 - [x] Matthew 16:16
 - [x] Colossians 1:15-20
 - [x] Philippians 2:6-11
+- [ ] Patriarchal Creed (God of Abramham, Isaac and Jacob
 - [ ] 1 Cor 15:3-4 "For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures, (ESV)""
 - [ ] Eph 4:4-6 "There is one body and one Spirit—just as you were called to the one hope that belongs to your call—one Lord, one faith, one baptism, one God and Father of all, who is over all and through all and in all. (ESV)"
 - [ ] 1 Timothy 1:15 "The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners, of whom I am the foremost. (ESV)"
@@ -97,7 +65,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [x] Belgic Confession (1561)
  - [x] Heidelberg Catechism (1563)
  - [ ] The Hungarian Confession (1570)
- - [ ] Second Scotch Confession (1580)
+ - [ ] [Second Scotch Confession (1580)](http://apostles-creed.org/wp-content/uploads/2014/09/The-Second-Scottish-Confession.pdf)
  - [ ] Irish Articles (1615)
  - [x] Canons of Dordt (1618-19)
  - [x] Westminster Confession of Faith 1646
@@ -112,13 +80,13 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
 
  ### Monergism Article - BB Warfield
 
- - [ ] ZWINGLI'S FIDEI RATIO (1530)
- - [ ] ZWINGLI'S EXPOSITIO CHR. FIDEI (1531)
+ - [ ] [ZWINGLI'S FIDEI RATIO (1530)](https://quod.lib.umich.edu/e/eebo2/A15880.0001.001?view=toc)
+ - [ ] ZWINGLI'S Christianae fidei expositio (1531)
  - [x] THE TETRAPOLITAN CONFESSION (1530)
  - [ ] FIRST BOHEMIAN CONFESSION (1535)
- - [ ] SECOND BOHEMIAN CONFESSION (1575)
+ - [ ] [SECOND BOHEMIAN CONFESSION (1575)](http://apostles-creed.org/wp-content/uploads/2014/07/Bohemian-Confession-1575.pdf)
  - [x] FIRST BASLE OR MÜHLHAUSEN CONFESSION (1534)
- - [ ] FIRST HELVETIC OR SECOND BASLE CONFESSION (1536)
+ - [x] [FIRST HELVETIC OR SECOND BASLE CONFESSION (1536)](https://quod.lib.umich.edu/e/eebo/A13256.0001.001?rgn=main;view=fulltext)
  - [ ] THE HUNGARIAN CONFESSION (1557-1558)
  - [x] SECOND HELVETIC CONFESSION (1562, 1566)
  - [x] HEIDELBERG CATECHISM (1563)
@@ -127,9 +95,9 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
    - [ ] The Confession of Sigismund (1614)
    - [ ] The Leipzig Colloquy (1631)
    - [ ] The Declaration of Thorn (1645)
- - [ ] FIRST GENEVAN CONFESSION (1536)
+ - [ ] [FIRST GENEVAN CONFESSION (1536)](https://www.addeigloriam.org/creeds/geneva-conf.htm)
  - [ ] GENEVAN CONFESSION (1537)
- - [ ] GENEVAN CATECHISM (1545)
+ - [ ] [GENEVAN CATECHISM (1545)](https://reformed.org/documents/calvin/geneva_catachism/geneva_catachism.html)
  - [ ] CONSENSUS TIGURINUS (1549)
  - [ ] CONSENSUS GENEVENSIS (1552)
  - [ ] CALVIN'S ARTICLES ON PREDESTINATION
@@ -138,12 +106,12 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [ ] CONFESSION FOR THE FRENCH CHURCHES, TO BE PRESENTED TO THE EMPEROR (1562)
  - [x] THE FRENCH CONFESSION (1559)
  - [x] THE BELGIC CONFESSION (1561)
- - [ ] CONFESSION OF THE ENGLISH CONGREGATION AT GENEVA (1558)
+ - [ ] [CONFESSION OF THE ENGLISH CONGREGATION AT GENEVA (1558)](http://www.swrb.com/newslett/actualNLs/GBO_ch03.htm)
  - [x] THE SCOTCH CONFESSION (1560)
- - [ ] CRAIG'S CATECHISM (1581)
- - [ ] THE ENGLISH ARTICLES (1553)
- - [ ] THE LAMBETH ARTICLES (1595)
- - [ ] THE IRISH ARTICLES (1615)
+ - [ ] [CRAIG'S CATECHISM (1581)](http://www.swrb.com/newslett/actualNLs/communca.htm)
+ - [ ] THE 42 ENGLISH ARTICLES (1553)
+ - [ ] [THE LAMBETH ARTICLES (1595)](https://www.apuritansmind.com/creeds-and-confessions/the-lambeth-articles/)
+ - [ ] [THE IRISH ARTICLES (1615)](https://www.apuritansmind.com/creeds-and-confessions/the-irish-articles-of-religion-by-james-ussher/)
  - [x] WESTMINSTER CONFESSION (1647)
  - [x] WESTMINSTER LARGER CATECHISM (1647)
  - [x] WESTMINSTER SHORTER CATECHISM (1648)
@@ -226,12 +194,12 @@ source: https://opc.org/os.html?article_id=595&issue_id=121
 SWISS
  - [x] 67 Sixty Seven Articles 1523
  - [x] The Ten Theses of Berne 1526
- - [ ] The First Confession of Basle. A.D. 1534
- - [ ] Helvetic Formulation 1675
+ - [x] The First Confession of Basel. A.D. 1534
  - [x] The Second Helvetic Confessions 1562
  - [ ] The Catechism of Geneva. A.D. 1536 and 1541
- - [ ] The Consensus of Tigurinus Zurich. A.D. 1549
- - [ ] The Helvetic Consensus Formula. A.D. 1675
+ - [ ] [The Consensus of Tigurinus Zurich. A.D. 1549](http://apostles-creed.org/wp-content/uploads/2014/07/The-Consenus-Tigurinus-Zurich.pdf)
+ - [ ] [The Helvetic Consensus Formula. A.D. 1675](http://apostles-creed.org/wp-content/uploads/2014/07/Creed_Helvetic.pdf)
+    - Translator (who holds the copyright): https://divinity.tiu.edu/wp-content/uploads/sites/4/2013/05/Klauber-CV.pdf
 
 FRENCH
  - [x] Gallican/French Confession of Faith 1559
