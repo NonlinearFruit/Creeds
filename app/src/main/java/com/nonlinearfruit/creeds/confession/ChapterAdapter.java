@@ -41,7 +41,7 @@ public class ChapterAdapter extends ArrayAdapter<Chapter> implements Filterable 
     }
 
     public Chapter getItem(int position) {
-        return chapters.get(getCount() - position - 1);
+        return chapters.get(position);
     }
 
     public long getItemId(int position) {

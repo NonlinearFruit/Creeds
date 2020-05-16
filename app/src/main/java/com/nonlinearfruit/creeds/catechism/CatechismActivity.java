@@ -17,12 +17,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.nonlinearfruit.creeds.R;
 import com.nonlinearfruit.creeds.catechism.models.CatechismQuestion;
+import com.nonlinearfruit.creeds.main.Database;
+import com.nonlinearfruit.creeds.main.models.Document;
 
 import java.util.List;
 
 public class CatechismActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
-    private CatechismDatabase db;
+    private Database db;
     private SearchView searchView;
     private ListView listView;
     private CatechismAdapter adapter;
@@ -39,17 +41,17 @@ public class CatechismActivity extends AppCompatActivity implements SearchView.O
         setTitle(title);
         setContentView(R.layout.activity_list);
 
-        db = new CatechismDatabase(jsonFile);
-        List<CatechismQuestion> data;
+        db = new Database(jsonFile);
+        Document<List<CatechismQuestion>> data;
         try{
-            data = db.getCatechism(this);
+            data = db.getDocument(this, List.class, CatechismQuestion.class);
         } catch (Exception exception) {
             Log.e("CREEDS", "Loading json failed for "+title, exception);
-            data = db.getDefaultCatechism();
+            return;
         }
         searchView = findViewById(R.id.search_view);
         listView = findViewById(R.id.list_view);
-        adapter = new CatechismAdapter(data,this);
+        adapter = new CatechismAdapter(data.Data,this);
         clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 
         setupListView();

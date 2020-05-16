@@ -17,12 +17,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.nonlinearfruit.creeds.R;
 import com.nonlinearfruit.creeds.canon.models.Article;
+import com.nonlinearfruit.creeds.main.Database;
+import com.nonlinearfruit.creeds.main.models.Document;
 
+import java.lang.reflect.Type;
 import java.util.List;
 
 public class CanonActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
-    private CanonDatabase db;
+    private Database db;
     private SearchView searchView;
     private ListView listView;
     private CanonAdapter adapter;
@@ -39,17 +42,17 @@ public class CanonActivity extends AppCompatActivity implements SearchView.OnQue
         setTitle(title);
         setContentView(R.layout.activity_list);
 
-        db = new CanonDatabase(jsonFile);
-        List<Article> data;
+        db = new Database(jsonFile);
+        Document<List<Article>> data;
         try{
-            data = db.getCanon(this);
+            data = db.<List<Article>>getDocument(this, List.class, Article.class);
         } catch (Exception exception) {
             Log.e("CREEDS", "Loading json failed for "+title, exception);
-            data = db.getDefaultCanon();
+            return;
         }
         searchView = findViewById(R.id.search_view);
         listView = findViewById(R.id.list_view);
-        adapter = new CanonAdapter(data,this);
+        adapter = new CanonAdapter(data.Data,this);
         clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 
         setupListView();

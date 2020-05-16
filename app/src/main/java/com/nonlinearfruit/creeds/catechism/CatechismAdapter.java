@@ -36,7 +36,7 @@ public class CatechismAdapter extends ArrayAdapter<CatechismQuestion> implements
     }
 
     public CatechismQuestion getItem(int position) {
-        return catechismQnAs.get(getCount()-position-1);
+        return catechismQnAs.get(position);
     }
 
     public long getItemId(int position) {

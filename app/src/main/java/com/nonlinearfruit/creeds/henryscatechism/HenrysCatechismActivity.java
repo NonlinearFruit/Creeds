@@ -18,12 +18,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.nonlinearfruit.creeds.R;
 import com.nonlinearfruit.creeds.catechism.models.CatechismQuestion;
 import com.nonlinearfruit.creeds.henryscatechism.models.HenrysCatechismQuestion;
+import com.nonlinearfruit.creeds.main.Database;
 
 import java.util.List;
 
 public class HenrysCatechismActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
-    private HenrysCatechismDatabase db;
+    private Database db;
     private HenrysCatechismAdapter adapter;
 
     @Override
@@ -37,13 +38,13 @@ public class HenrysCatechismActivity extends AppCompatActivity implements Search
         setTitle(title);
         setContentView(R.layout.activity_list);
 
-        db = new HenrysCatechismDatabase(jsonFile);
+        db = new Database(jsonFile);
         List<HenrysCatechismQuestion> data;
         try{
-            data = db.getCatechism(this);
+            data = db.<List<HenrysCatechismQuestion>>getDocument(this, List.class, HenrysCatechismQuestion.class).Data;
         } catch (Exception exception) {
             Log.e("CREEDS", "Loading json failed for "+title, exception);
-            data = db.getDefaultCatechism();
+            return;
         }
         adapter = new HenrysCatechismAdapter(data,this,(ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE));
 

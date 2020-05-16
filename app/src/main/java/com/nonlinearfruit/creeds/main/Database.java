@@ -1,10 +1,11 @@
-package com.nonlinearfruit.creeds.catechism;
+package com.nonlinearfruit.creeds.main;
 
 import android.content.Context;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.nonlinearfruit.creeds.catechism.models.CatechismQuestion;
+import com.nonlinearfruit.creeds.canon.models.Article;
+import com.nonlinearfruit.creeds.main.models.Document;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,43 +19,26 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class CatechismDatabase {
-    private List<CatechismQuestion> catechism = new ArrayList<CatechismQuestion>(){{
-        add(new CatechismQuestion(){{
-            Number = "1";
-            Question = "Who made you?";
-            Answer = "God made me";
-        }});
-        add(new CatechismQuestion(){{
-            Number = "2";
-            Question = "What else did God make?";
-            Answer = "God made all things";
-        }});
-        add(new CatechismQuestion(){{
-            Number = "3";
-            Question = "Why did God make you and all things";
-            Answer = "For His own glory";
-        }});
-    }};
-
+public class Database {
     private int jsonFileId;
 
-    public CatechismDatabase(int jsonFileId) {
+    public Database(int jsonFileId) {
 
         this.jsonFileId = jsonFileId;
     }
 
-    public List<CatechismQuestion> getDefaultCatechism() {
-        return catechism;
-    }
-
-    public List<CatechismQuestion> getCatechism(Context context) throws IOException{
+    public <T> Document<T> getDocument(Context context, Type typeParameter) throws IOException{
         Gson gson = new Gson();
         String jsonOutput = readJson(context);
-        Type listType = new TypeToken<List<CatechismQuestion>>(){}.getType();
-        List<CatechismQuestion> qnas = gson.fromJson(jsonOutput, listType);
-        Collections.reverse(qnas);
-        return qnas;
+        Document<T> document = gson.fromJson(jsonOutput, TypeToken.getParameterized(Document.class, typeParameter).getType());
+        return document;
+    }
+
+    public <T> Document<T> getDocument(Context context, Type typeParameter, Type typeSubParameter) throws IOException{
+        Gson gson = new Gson();
+        String jsonOutput = readJson(context);
+        Document<T> document = gson.fromJson(jsonOutput, TypeToken.getParameterized(Document.class, TypeToken.getParameterized(typeParameter, typeSubParameter).getType()).getType());
+        return document;
     }
 
     private String readJson(Context context) throws IOException {

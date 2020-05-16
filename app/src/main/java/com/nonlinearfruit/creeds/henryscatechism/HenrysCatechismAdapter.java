@@ -41,7 +41,7 @@ public class HenrysCatechismAdapter extends ArrayAdapter<HenrysCatechismQuestion
     }
 
     public HenrysCatechismQuestion getItem(int position) {
-        return catechismQnAs.get(getCount()-position-1);
+        return catechismQnAs.get(position);
     }
 
     public long getItemId(int position) {

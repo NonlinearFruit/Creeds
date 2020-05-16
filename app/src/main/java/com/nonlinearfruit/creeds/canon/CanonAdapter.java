@@ -34,7 +34,7 @@ public class CanonAdapter extends ArrayAdapter<Article> implements Filterable{
     }
 
     public Article getItem(int position) {
-        return articles.get(getCount()-position-1);
+        return articles.get(position);
     }
 
     public long getItemId(int position) {

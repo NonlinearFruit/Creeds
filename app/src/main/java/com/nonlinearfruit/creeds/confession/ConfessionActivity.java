@@ -14,7 +14,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.nonlinearfruit.creeds.R;
 import com.nonlinearfruit.creeds.confession.models.Chapter;
+import com.nonlinearfruit.creeds.main.Database;
+import com.nonlinearfruit.creeds.main.models.Document;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ConfessionActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
@@ -38,17 +41,16 @@ public class ConfessionActivity extends AppCompatActivity implements SearchView.
     private ChapterAdapter setupAdapter(String title) {
         Intent intent = getIntent();
         int jsonFile = intent.getIntExtra("JsonFileId",1); // TODO: Defaulting to 1 could be _bad_
-        ConfessionDatabase db = new ConfessionDatabase(jsonFile);
-        List<Chapter> data;
+        Database db = new Database(jsonFile);
+        List<Chapter> chapters = new ArrayList<>();
 
         try{
-            data = db.getConfession(this);
+            chapters = db.<List<Chapter>>getDocument(this, List.class, Chapter.class).Data;
         } catch (Exception exception) {
-            Log.e("CREEDS", "Loading json failed for "+title, exception);
-            data = db.getDefaultConfession();
+            Log.e("CREEDS", "Loading json failed for "+title, exception); // TODO: handle gracefully
         }
 
-        return new ChapterAdapter(data, this, (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE));
+        return new ChapterAdapter(chapters, this, (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE));
     }
 
     private void setupListView(ArrayAdapter adapter) {

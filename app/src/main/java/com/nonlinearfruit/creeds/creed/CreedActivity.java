@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -13,6 +14,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.nonlinearfruit.creeds.R;
+import com.nonlinearfruit.creeds.creed.models.Creed;
+import com.nonlinearfruit.creeds.main.Database;
 
 public class CreedActivity extends AppCompatActivity {
 
@@ -32,8 +35,12 @@ public class CreedActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.activity_paragraph_paragraph);
         textView.setMovementMethod(new ScrollingMovementMethod());
-        String creed = new CreedDatabase().getCreed(contentId);
-        textView.setText(creed);
+        try {
+            String creed = new Database(contentId).<Creed>getDocument(this, Creed.class).Data.Content;
+            textView.setText(creed);
+        }catch(Exception exception){
+            Log.e("CREEDS", "Loading json failed for "+title, exception);
+        }
         textView.setOnLongClickListener(new TextView.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
