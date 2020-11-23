@@ -118,7 +118,7 @@ More: https://www.addeigloriam.org/creeds/bible-creed.htm
  - [ ] [ZWINGLI'S FIDEI RATIO (1530)](https://quod.lib.umich.edu/e/eebo2/A15880.0001.001?view=toc)
  - [ ] ZWINGLI'S Christianae fidei expositio (1531)
  - [x] THE TETRAPOLITAN CONFESSION (1530)
- - [ ] FIRST BOHEMIAN CONFESSION (1535)
+ - [ ] [FIRST BOHEMIAN CONFESSION (1535)](https://www.moravianarchives.org/wp-content/uploads/2012/01/Confession-1535.pdf)
  - [ ] [SECOND BOHEMIAN CONFESSION (1575)](http://apostles-creed.org/wp-content/uploads/2014/07/Bohemian-Confession-1575.pdf)
  - [x] FIRST BASLE OR MÜHLHAUSEN CONFESSION (1534)
  - [x] [FIRST HELVETIC OR SECOND BASLE CONFESSION (1536)](https://quod.lib.umich.edu/e/eebo/A13256.0001.001?rgn=main;view=fulltext)
@@ -245,7 +245,7 @@ GERMAN
  - [x] The Tetrapolitan, Strasburg or the Swabian Confession 1530
  - [x] Heidelberg Catechism 1563
  - [ ] The Waldensian Catechism 1488
- - [ ] The Bohemian Confession 1521, 1535
+ - [ ] [The Bohemian Confession 1521, 1535](https://www.moravianarchives.org/wp-content/uploads/2012/01/Confession-1535.pdf)
 
 ENGLAND
  - [ ] The Ten Articles 1536
