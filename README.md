@@ -60,41 +60,6 @@ If there are better (more descriptive) words, let us know!
 - [x] [Zwingli's 67 Articles (1523)](https://christianhistoryinstitute.org/study/module/zwinglis-sixty-seven-articles/)
 ## Creeds To Do
 
-### Biblical Ones
-
-- [x] Deuteronomy 6:4
-- [x] Matthew 16:16
-- [x] Colossians 1:15-20
-- [x] Philippians 2:6-11
-- [ ] Patriarchal Creed (God of Abramham, Isaac and Jacob)
-- [ ] 1 Cor 15:3-4 "For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures, (ESV)""
-- [ ] Eph 4:4-6 "There is one body and one Spirit—just as you were called to the one hope that belongs to your call—one Lord, one faith, one baptism, one God and Father of all, who is over all and through all and in all. (ESV)"
-- [ ] 1 Timothy 1:15 "The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners, of whom I am the foremost. (ESV)"
-
-1 Timothy 2:5
-  For there is one God, and there is one mediator between God and men, the man Christ Jesus, (ESV)
-
-It is a faithful saying: For if we be dead with him, we shall also live with him: If we suffer, we shall also reign with him: if we deny him, he also will deny us: If we believe not, yet he abideth faithful: he cannot deny himself.
-- 2 Timothy 2:11-13, KJV
-
-But after that the kindness and love of God our Saviour toward man appeared, Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost; Which he shed on us abundantly through Jesus Christ our Saviour; That being justified by his grace, we should be made heirs according to the hope of eternal life. This is a faithful saying, and these things I will that thou affirm constantly, that they which have believed in God might be careful to maintain good works. These things are good and profitable unto men.
-- Titus 3:4-8[3], KJV
-
-1 Corinthians 15:3-10
-  For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures, and that he appeared to Cephas, then to the twelve. Then he appeared to more than five hundred brothers at one time, most of whom are still alive, though some have fallen asleep. Then he appeared to James, then to all the apostles. Last of all, as to one untimely born, he appeared also to me. For I am the least of the apostles, unworthy to be called an apostle, because I persecuted the church of God. But by the grace of God I am what I am, and his grace toward me was not in vain. On the contrary, I worked harder than any of them, though it was not I, but the grace of God that is with me. (ESV)
-
-1 Timothy 3:16
-  Great indeed, we confess, is the mystery of godliness:
-
-    He was manifested in the flesh,
-        vindicated by the Spirit,
-            seen by angels,
-    proclaimed among the nations,
-        believed on in the world,
-            taken up in glory. (ESV)
-
-More: https://www.addeigloriam.org/creeds/bible-creed.htm
-
 ### Reformed-ish Ones
 
  - [x] The Sixty-seven Articles of Ulrigh Zwingli (1523)
